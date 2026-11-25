@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# KiCad : historique local, sauvegardes, verrous et état de l'interface
+kicad/.history/
+*-backups/
+*.lck
+*.kicad_prl
+fp-info-cache
+*-bak
+_autosave-*
+~*
+
+# Arduino : produits de compilation
+build/
+*.bin
+*.elf
+
+# Outil tiers à télécharger (voir README)
+tools/freerouting.jar
+
+# Notes et réglages personnels : jamais dans le dépôt public
+HANDOVER.md
+firmware/sauvegardes/

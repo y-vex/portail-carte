@@ -1,0 +1,58 @@
+Designator,Quantity,Value,Description,Package,Manufacturer,MPN
+"C1,C2",2,470u 50V,"Electrolytique 470 uF 50 V, 105 C, diam. 10 x 30,5 mm, pas 5,0 mm, 1,69 A",CP_Radial_D10.0mm_P5.00mm,Nichicon,UHE1H471MPD
+"C3,C4,C5,C6,C11,C13,C17,C18,C19",9,100n 50V,MLCC 100 nF 50 V X7R 10 % 0603,C_0603_1608Metric,Samsung Electro-Mechanics,CL10B104KB8NNNC
+C7,1,100u 50V,"Electrolytique 100 uF 50 V, 105 C, diam. 8 x 11,5 mm, pas 3,5 mm",CP_Radial_D8.0mm_P3.50mm,Nichicon,UHE1H101MPD
+"C8,C10,C12",3,10u 16V,MLCC 10 uF 16 V X7R 10 % 0805,C_0805_2012Metric,Samsung Electro-Mechanics,CL21B106KOQNNNE
+C9,1,4.7u 16V,MLCC 4.7 uF 16 V X7R 10 % 0805,C_0805_2012Metric,Samsung Electro-Mechanics,CL21B475KOFNNNE
+C14,1,1u 16V,MLCC 1 uF 16 V X7R 10 % 0603,C_0603_1608Metric,Samsung Electro-Mechanics,CL10B105KO8NNNC
+"C15,C16",2,10n 50V,MLCC 10 nF 50 V X7R 10 % 0603,C_0603_1608Metric,Samsung Electro-Mechanics,CL10B103KB8NNNC
+"C20,C21,C22,C23",4,10n 50V,MLCC 10 nF 50 V X7R 10 % 0603,C_0603_1608Metric,Samsung Electro-Mechanics,CL10B103KB8NNNC
+C24,1,10u 25V,MLCC 10 uF 25 V X7R 10 % 1206,C_1206_3216Metric,Samsung Electro-Mechanics,CL31B106KAHNNNE
+"C25,C27",2,4.7u 50V,MLCC 4.7 uF 50 V X7R 10 % 1206,C_1206_3216Metric,Murata,GRM31CR71H475KA12L
+"C26,C28",2,4.7u 50V,MLCC 4.7 uF 50 V X7R 10 % 1206,C_1206_3216Metric,Murata,GRM31CR71H475KA12L
+D1,1,SMCJ24A,"TVS unidirectionnelle 1500 W 24 V, SMC",D_SMC,Diodes Incorporated,SMCJ24A-13-F
+"D2,D3",2,SS14,"Schottky 1 A 40 V, DO-214AC (SMA)",D_SMA,Vishay,SS14-E3/61T
+"D4,D5,D6,D7",4,1N4148W,"Diode de commutation 100 V, SOD-123",D_SOD-123,Diodes Incorporated,1N4148W-7-F
+"D8,D9",2,SS16,"Schottky 1 A 60 V, DO-214AC (SMA)",D_SMA,Vishay,SS16-E3/61T
+D10,1,verte,"LED verte 0603, Vf typ 2,2 V",LED_0603_1608Metric,Kingbright,APT1608SGC
+D11,1,rouge,"LED rouge 0603, Vf typ 2,0 V",LED_0603_1608Metric,Kingbright,APT1608EC
+D12,1,SMAJ15A,"TVS unidirectionnelle 400 W 15 V, SMA",D_SMA,Diodes Incorporated,SMAJ15A-13-F
+D13,1,SMAJ15A,"TVS unidirectionnelle 400 W 15 V, SMA",D_SMA,Diodes Incorporated,SMAJ15A-13-F
+D14,1,BZT52C12,"Zener 12 V 5 % 500 mW, SOD-123",D_SOD-123,Diodes Incorporated,BZT52C12-7-F
+F1,1,15A lame mini,"Porte-fusible pour fusible lame Mini, traversant, 30 A",Fuseholder_Blade_Mini_Keystone_3568,Keystone,3568
+"F2,F3",2,10A lame mini,"Porte-fusible pour fusible lame Mini, traversant, 30 A",Fuseholder_Blade_Mini_Keystone_3568,Keystone,3568
+F4,1,RXEF050,"PTC réarmable 0,5 A hold / 1 A trip, 72 V, radial",C_Disc_D10.5mm_W5.0mm_P5.00mm,Littelfuse,RXEF050
+F5,1,RXEF110,"PTC réarmable 1,1 A hold / 2,2 A trip, 72 V, radial",C_Disc_D10.5mm_W5.0mm_P5.00mm,Littelfuse,RXEF110
+F6,1,2A T 1206,"Fusible CMS 1206 2 A temporisé (Slo-Blo, série 468), 63 V",Fuse_1206_3216Metric,Littelfuse,0468002.NR
+J1,1,24V DC IN,"Bornier a vis MKDS 1,5/2-5,08, 2 points, pas 5,08 mm","TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",Phoenix Contact,1715721
+J2,1,MOTEUR 1,"Bornier a vis MKDS 1,5/2-5,08, 2 points, pas 5,08 mm","TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",Phoenix Contact,1715721
+J3,1,MOTEUR 2,"Bornier a vis MKDS 1,5/2-5,08, 2 points, pas 5,08 mm","TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",Phoenix Contact,1715721
+J4,1,ENTREES,"Bornier a vis PT 1,5/8-3,5-H, 8 points, pas 3,5 mm","TerminalBlock_Phoenix_PT-1,5-8-3.5-H_1x08_P3.50mm_Horizontal",Phoenix Contact,1984675
+J5,1,SORTIES,"Bornier a vis PT 1,5/4-3,5-H, 4 points, pas 3,5 mm","TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal",Phoenix Contact,1984633
+J6,1,USB-C,"Embase USB-C 16 broches USB 2.0, CMS, montage sur le dessus",USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,GCT,USB4105-GF-A
+J7,1,DEBUG UART,"Barrette mâle 1x4, 2,54 mm, droite, traversante (WR-PHD)",PinHeader_1x04_P2.54mm_Vertical,Würth Elektronik,61300411121
+J8,1,EXTENSION,"Barrette mâle 1x6, 2,54 mm, droite, traversante (WR-PHD)",PinHeader_1x06_P2.54mm_Vertical,Würth Elektronik,61300611121
+"Q1,Q2",2,AO3422,"MOSFET N 55 V, 2,1 A, SOT-23",SOT-23,Alpha & Omega Semiconductor,AO3422
+Q3,1,IPD50P04P4L-11,"MOSFET P 40 V, 50 A, 10,6 mΩ, TO-252 (OptiMOS-P2)",TO-252-2,Infineon,IPD50P04P4L11ATMA2
+"R1,R2",2,1.2k 1%,"Résistance 1,2 kΩ 1 % 0,1 W 0603",R_0603_1608Metric,Yageo,RC0603FR-071K2L
+"R9,R10,R17,R18,R19,R26,R27,R28,R29",9,10k,"Résistance 10 kΩ 1 % 0,1 W 0603",R_0603_1608Metric,Yageo,RC0603FR-0710KL
+R11,1,10k,"Résistance 10 kΩ 1 % 0,1 W 0603",R_0603_1608Metric,Yageo,RC0603FR-0710KL
+R14,1,100k,"Résistance 100 kΩ 1 % 0,1 W 0603",R_0603_1608Metric,Yageo,RC0603FR-07100KL
+R15,1,100k 1%,"Résistance 100 kΩ 1 % 0,1 W 0603",R_0603_1608Metric,Yageo,RC0603FR-07100KL
+R16,1,10k 1%,"Résistance 10 kΩ 1 % 0,1 W 0603",R_0603_1608Metric,Yageo,RC0603FR-0710KL
+"R20,R21",2,5.1k,"Résistance 5,1 kΩ 1 % 0,1 W 0603",R_0603_1608Metric,Yageo,RC0603FR-075K1L
+"R22,R23,R24,R25",4,2.2k,"Résistance 2,2 kΩ 1 % 0,25 W 1206",R_1206_3216Metric,Yageo,RC1206FR-072K2L
+"R30,R31",2,100R,"Résistance 100 Ω 1 % 0,1 W 0603",R_0603_1608Metric,Yageo,RC0603FR-07100RL
+"R32,R33",2,100k,"Résistance 100 kΩ 1 % 0,1 W 0603",R_0603_1608Metric,Yageo,RC0603FR-07100KL
+"R34,R35",2,1k,"Résistance 1 kΩ 1 % 0,1 W 0603",R_0603_1608Metric,Yageo,RC0603FR-071KL
+R36,1,10k,"Résistance 10 kΩ 1 % 0,1 W 0603",R_0603_1608Metric,Yageo,RC0603FR-0710KL
+SW1,1,BOOT,Bouton poussoir CMS 450 gf,SW_SPST_TL3342,E-Switch,TL3342F450QG
+SW2,1,RESET,Bouton poussoir CMS 450 gf,SW_SPST_TL3342,E-Switch,TL3342F450QG
+SW3,1,APPRENTISSAGE,Bouton poussoir CMS 450 gf,SW_SPST_TL3342,E-Switch,TL3342F450QG
+U1,1,ESP32-S3-WROOM-1-N8,"Module Wi-Fi/BLE ESP32-S3, 8 Mo flash, antenne PCB",ESP32-S3-WROOM-1,Espressif Systems,ESP32-S3-WROOM-1-N8
+"U2,U3",2,DRV8245SQRXZRQ1,"Pont en H 16-VQFN-HR, variante SPI (S), Q1 automobile",DRV8245_VQFN-HR-16_RXZ,Texas Instruments,DRV8245SQRXZRQ1
+U4,1,TSR 1-2450,"Convertisseur 6,5-36 V vers 5 V / 1 A, SIP-3 traversant",Converter_DCDC_TRACO_TSR-1_THT,Traco Power,TSR 1-2450
+U5,1,AP7361C-33ER,"LDO 3,3 V 1 A, SOT-223 brochage R (1 GND, 2 sortie, 3 entrée)",SOT-223-3_TabPin2,Diodes Incorporated,AP7361C-33ER-13
+U6,1,USBLC6-2SC6,"Protection ESD USB, SOT-23-6",SOT-23-6,STMicroelectronics,USBLC6-2SC6
+"U7,U8,U9,U10",4,LTV-817S,"Optocoupleur 4 broches CMS (SMDIP-4), CTR non trié, bobine",SMDIP-4_W9.53mm,Lite-On,LTV-817S-TA1
+U11,1,TSR 1-24120,"Convertisseur 15-36 V vers 12 V / 1 A, SIP-3 traversant",Converter_DCDC_TRACO_TSR-1_THT,Traco Power,TSR 1-24120

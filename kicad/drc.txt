@@ -1,0 +1,1108 @@
+** Drc report for portail.kicad_pcb **
+** Created on 2026-11-10T12:32:04 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 118 DRC violations **
+[starved_thermal]: Connexion de frein thermique à la zone incomplète (couche F.Cu ; zone nbre min de rayons 2 ; réel 1)
+    Local override; error
+    @(50.5000 mm, 50.5000 mm): Zone [GND] sur F.Cu, priorité 0
+    @(66.5400 mm, 64.0000 mm): Pad métallisé 2 [GND] de U4
+[starved_thermal]: Connexion de frein thermique à la zone incomplète (couche F.Cu ; zone nbre min de rayons 2 ; réel 1)
+    Local override; error
+    @(50.5000 mm, 50.5000 mm): Zone [GND] sur F.Cu, priorité 0
+    @(184.0000 mm, 69.6200 mm): Pad métallisé 4 [GND] de J7
+[starved_thermal]: Connexion de frein thermique à la zone incomplète (couche F.Cu ; zone nbre min de rayons 2 ; réel 1)
+    Local override; error
+    @(50.5000 mm, 50.5000 mm): Zone [GND] sur F.Cu, priorité 0
+    @(83.1250 mm, 116.9250 mm): Pad 12 [GND] de U2 sur F.Cu
+[starved_thermal]: Connexion de frein thermique à la zone incomplète (couche F.Cu ; zone nbre min de rayons 2 ; réel 1)
+    Local override; error
+    @(50.5000 mm, 50.5000 mm): Zone [GND] sur F.Cu, priorité 0
+    @(83.1250 mm, 117.5750 mm): Pad 13 [GND] de U2 sur F.Cu
+[starved_thermal]: Connexion de frein thermique à la zone incomplète (couche F.Cu ; zone nbre min de rayons 2 ; réel 1)
+    Local override; error
+    @(50.5000 mm, 50.5000 mm): Zone [GND] sur F.Cu, priorité 0
+    @(88.8750 mm, 117.5750 mm): Pad 16 [GND] de U2 sur F.Cu
+[starved_thermal]: Connexion de frein thermique à la zone incomplète (couche F.Cu ; zone nbre min de rayons 2 ; réel 1)
+    Local override; error
+    @(50.5000 mm, 50.5000 mm): Zone [GND] sur F.Cu, priorité 0
+    @(88.8750 mm, 116.9250 mm): Pad 17 [GND] de U2 sur F.Cu
+[starved_thermal]: Connexion de frein thermique à la zone incomplète (couche F.Cu ; zone nbre min de rayons 2 ; réel 1)
+    Local override; error
+    @(50.5000 mm, 50.5000 mm): Zone [GND] sur F.Cu, priorité 0
+    @(192.8950 mm, 106.3200 mm): Pad métallisé S1 [GND] de J6
+[starved_thermal]: Connexion de frein thermique à la zone incomplète (couche F.Cu ; zone nbre min de rayons 2 ; réel 1)
+    Local override; error
+    @(50.5000 mm, 50.5000 mm): Zone [GND] sur F.Cu, priorité 0
+    @(125.1250 mm, 116.9250 mm): Pad 12 [GND] de U3 sur F.Cu
+[starved_thermal]: Connexion de frein thermique à la zone incomplète (couche F.Cu ; zone nbre min de rayons 2 ; réel 1)
+    Local override; error
+    @(50.5000 mm, 50.5000 mm): Zone [GND] sur F.Cu, priorité 0
+    @(125.1250 mm, 117.5750 mm): Pad 13 [GND] de U3 sur F.Cu
+[starved_thermal]: Connexion de frein thermique à la zone incomplète (couche F.Cu ; zone nbre min de rayons 2 ; réel 1)
+    Local override; error
+    @(50.5000 mm, 50.5000 mm): Zone [GND] sur F.Cu, priorité 0
+    @(130.8750 mm, 117.5750 mm): Pad 16 [GND] de U3 sur F.Cu
+[starved_thermal]: Connexion de frein thermique à la zone incomplète (couche F.Cu ; zone nbre min de rayons 2 ; réel 1)
+    Local override; error
+    @(50.5000 mm, 50.5000 mm): Zone [GND] sur F.Cu, priorité 0
+    @(130.8750 mm, 116.9250 mm): Pad 17 [GND] de U3 sur F.Cu
+[starved_thermal]: Connexion de frein thermique à la zone incomplète (couche F.Cu ; zone nbre min de rayons 2 ; réel 1)
+    Local override; error
+    @(50.5000 mm, 50.5000 mm): Zone [GND] sur F.Cu, priorité 0
+    @(155.4500 mm, 63.0000 mm): Pad 2 [GND] de C12 sur F.Cu
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(50.0000 mm, 50.0000 mm): Segment sur Edge.Cuts
+    @(195.5000 mm, 50.3000 mm): Champ référence de H2
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(50.0000 mm, 50.0000 mm): Segment sur Edge.Cuts
+    @(158.8000 mm, 49.8500 mm): Segment de U1 sur F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(50.0000 mm, 50.0000 mm): Segment sur Edge.Cuts
+    @(177.2000 mm, 49.8500 mm): Segment de U1 sur F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(50.0000 mm, 50.0000 mm): Segment sur Edge.Cuts
+    @(54.5000 mm, 50.3000 mm): Champ référence de H1
+[lib_footprint_mismatch]: L’empreinte 'C_0603_1608Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(91.9000 mm, 132.5000 mm): Empreinte C21
+[lib_footprint_mismatch]: L’empreinte 'C_0603_1608Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(154.5000 mm, 71.5000 mm): Empreinte C14
+[lib_footprint_mismatch]: L’empreinte 'C_0805_2012Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(97.5000 mm, 74.0000 mm): Empreinte C10
+[lib_footprint_mismatch]: L’empreinte 'SMDIP-4_W9.53mm' ne correspond pas à la copie en librairie 'Package_DIP'
+    Local override; warning
+    @(162.0000 mm, 122.5000 mm): Empreinte U9
+[lib_footprint_mismatch]: L’empreinte 'C_0603_1608Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(122.1000 mm, 132.5000 mm): Empreinte C22
+[lib_footprint_mismatch]: L’empreinte 'SOT-23' ne correspond pas à la copie en librairie 'Package_TO_SOT_SMD'
+    Local override; warning
+    @(142.0000 mm, 131.0000 mm): Empreinte Q1
+[lib_footprint_mismatch]: L’empreinte 'C_0805_2012Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(81.0000 mm, 75.0000 mm): Empreinte C9
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(160.6000 mm, 113.5000 mm): Empreinte R27
+[lib_footprint_mismatch]: L’empreinte 'TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal' ne correspond pas à la copie en librairie 'TerminalBlock_Phoenix'
+    Local override; warning
+    @(140.0000 mm, 143.0000 mm): Empreinte J5
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(144.1000 mm, 126.5000 mm): Empreinte R32
+[lib_footprint_mismatch]: L’empreinte 'SMDIP-4_W9.53mm' ne correspond pas à la copie en librairie 'Package_DIP'
+    Local override; warning
+    @(176.0000 mm, 122.5000 mm): Empreinte U10
+[lib_footprint_mismatch]: L’empreinte 'C_0603_1608Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(133.9000 mm, 132.5000 mm): Empreinte C23
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(72.0000 mm, 81.0000 mm): Empreinte R15
+[lib_footprint_mismatch]: L’empreinte 'C_0603_1608Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(97.3000 mm, 114.8000 mm): Empreinte C4
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(123.0000 mm, 103.0000 mm): Empreinte R6
+[lib_footprint_mismatch]: L’empreinte 'R_1206_3216Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(169.0000 mm, 135.0000 mm): Empreinte R24
+[lib_footprint_mismatch]: L’empreinte 'C_1206_3216Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(83.0000 mm, 70.5000 mm): Empreinte C24
+[lib_footprint_mismatch]: L’empreinte 'C_0603_1608Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(97.5000 mm, 77.0000 mm): Empreinte C11
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(123.0000 mm, 100.5000 mm): Empreinte R12
+[lib_footprint_mismatch]: L’empreinte 'TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal' ne correspond pas à la copie en librairie 'TerminalBlock_Phoenix'
+    Local override; warning
+    @(64.0000 mm, 142.5000 mm): Empreinte J1
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(157.0000 mm, 113.5000 mm): Empreinte R26
+[lib_footprint_mismatch]: L’empreinte 'PinHeader_1x04_P2.54mm_Vertical' ne correspond pas à la copie en librairie 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(184.0000 mm, 62.0000 mm): Empreinte J7
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(140.5000 mm, 126.5000 mm): Empreinte R30
+[lib_footprint_mismatch]: L’empreinte 'C_0603_1608Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(154.5000 mm, 66.0000 mm): Empreinte C13
+[lib_footprint_mismatch]: L’empreinte 'R_1206_3216Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(175.0000 mm, 135.0000 mm): Empreinte R25
+[lib_footprint_mismatch]: L’empreinte 'CP_Radial_D10.0mm_P5.00mm' ne correspond pas à la copie en librairie 'Capacitor_THT'
+    Local override; warning
+    @(143.6000 mm, 113.5000 mm): Empreinte C2
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(103.0000 mm, 97.5000 mm): Empreinte R13
+[lib_footprint_mismatch]: L’empreinte 'SOT-23' ne correspond pas à la copie en librairie 'Package_TO_SOT_SMD'
+    Local override; warning
+    @(149.0000 mm, 131.0000 mm): Empreinte Q2
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(167.8000 mm, 113.5000 mm): Empreinte R29
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(84.6000 mm, 103.0000 mm): Empreinte R7
+[lib_footprint_mismatch]: L’empreinte 'TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal' ne correspond pas à la copie en librairie 'TerminalBlock_Phoenix'
+    Local override; warning
+    @(125.5000 mm, 142.5000 mm): Empreinte J3
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(164.2000 mm, 113.5000 mm): Empreinte R28
+[lib_footprint_mismatch]: L’empreinte 'SMDIP-4_W9.53mm' ne correspond pas à la copie en librairie 'Package_DIP'
+    Local override; warning
+    @(162.0000 mm, 130.0000 mm): Empreinte U7
+[lib_footprint_mismatch]: L’empreinte 'PinHeader_1x06_P2.54mm_Vertical' ne correspond pas à la copie en librairie 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(189.5000 mm, 62.0000 mm): Empreinte J8
+[lib_footprint_mismatch]: L’empreinte 'LED_0603_1608Metric' ne correspond pas à la copie en librairie 'LED_SMD'
+    Local override; warning
+    @(187.0000 mm, 84.0000 mm): Empreinte D11
+[lib_footprint_mismatch]: L’empreinte 'C_Disc_D10.5mm_W5.0mm_P5.00mm' ne correspond pas à la copie en librairie 'Capacitor_THT'
+    Local override; warning
+    @(94.0000 mm, 60.0000 mm): Empreinte F4
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(130.2000 mm, 103.0000 mm): Empreinte R5
+[lib_footprint_mismatch]: L’empreinte 'R_1206_3216Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(157.0000 mm, 135.0000 mm): Empreinte R22
+[lib_footprint_mismatch]: L’empreinte 'C_Disc_D10.5mm_W5.0mm_P5.00mm' ne correspond pas à la copie en librairie 'Capacitor_THT'
+    Local override; warning
+    @(108.0000 mm, 60.0000 mm): Empreinte F5
+[lib_footprint_mismatch]: L’empreinte 'CP_Radial_D8.0mm_P3.50mm' ne correspond pas à la copie en librairie 'Capacitor_THT'
+    Local override; warning
+    @(59.0000 mm, 101.0000 mm): Empreinte C7
+[lib_footprint_mismatch]: L’empreinte 'HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.75x6.2mm' ne correspond pas à la copie en librairie 'Package_SO'
+    Local override; warning
+    @(86.0000 mm, 114.0000 mm): Empreinte U2
+[lib_footprint_mismatch]: L’empreinte 'TerminalBlock_Phoenix_PT-1,5-8-3.5-H_1x08_P3.50mm_Horizontal' ne correspond pas à la copie en librairie 'TerminalBlock_Phoenix'
+    Local override; warning
+    @(156.0000 mm, 143.0000 mm): Empreinte J4
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(141.0000 mm, 103.0000 mm): Empreinte R10
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(91.8000 mm, 103.0000 mm): Empreinte R1
+[lib_footprint_mismatch]: L’empreinte 'ESP32-S3-WROOM-1' ne correspond pas à la copie en librairie 'RF_Module'
+    Local override; warning
+    @(168.0000 mm, 62.7500 mm): Empreinte U1
+[lib_footprint_mismatch]: L’empreinte 'CP_Radial_D10.0mm_P5.00mm' ne correspond pas à la copie en librairie 'Capacitor_THT'
+    Local override; warning
+    @(101.6000 mm, 113.5000 mm): Empreinte C1
+[lib_footprint_mismatch]: L’empreinte 'SOT-23-6' ne correspond pas à la copie en librairie 'Package_TO_SOT_SMD'
+    Local override; warning
+    @(180.5000 mm, 102.0000 mm): Empreinte U6
+[lib_footprint_mismatch]: L’empreinte 'TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal' ne correspond pas à la copie en librairie 'TerminalBlock_Phoenix'
+    Local override; warning
+    @(83.5000 mm, 142.5000 mm): Empreinte J2
+[lib_footprint_mismatch]: L’empreinte 'C_0603_1608Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(80.1000 mm, 132.5000 mm): Empreinte C20
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(133.8000 mm, 103.0000 mm): Empreinte R2
+[lib_footprint_mismatch]: L’empreinte 'USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal' ne correspond pas à la copie en librairie 'Connector_USB'
+    Local override; warning
+    @(196.0000 mm, 102.0000 mm): Empreinte J6
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(181.0000 mm, 95.5000 mm): Empreinte R20
+[lib_footprint_mismatch]: L’empreinte 'C_0805_2012Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(66.5000 mm, 70.0000 mm): Empreinte C8
+[lib_footprint_mismatch]: L’empreinte 'C_0603_1608Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(120.1000 mm, 106.2000 mm): Empreinte C5
+[lib_footprint_mismatch]: L’empreinte 'C_0603_1608Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(126.6000 mm, 100.5000 mm): Empreinte C18
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(168.0000 mm, 98.0000 mm): Empreinte R19
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(147.7000 mm, 126.5000 mm): Empreinte R31
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(183.0000 mm, 81.0000 mm): Empreinte R34
+[lib_footprint_mismatch]: L’empreinte 'C_0603_1608Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(79.2000 mm, 81.0000 mm): Empreinte C19
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(151.3000 mm, 126.5000 mm): Empreinte R33
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(81.0000 mm, 103.0000 mm): Empreinte R4
+[lib_footprint_mismatch]: L’empreinte 'HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.75x6.2mm' ne correspond pas à la copie en librairie 'Package_SO'
+    Local override; warning
+    @(128.0000 mm, 114.0000 mm): Empreinte U3
+[lib_footprint_mismatch]: L’empreinte 'C_0603_1608Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(139.3000 mm, 114.8000 mm): Empreinte C6
+[lib_footprint_mismatch]: L’empreinte 'C_0603_1608Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(78.1000 mm, 106.2000 mm): Empreinte C3
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(156.0000 mm, 98.0000 mm): Empreinte R18
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(183.0000 mm, 84.0000 mm): Empreinte R35
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(154.5000 mm, 69.0000 mm): Empreinte R17
+[lib_footprint_mismatch]: L’empreinte 'C_0603_1608Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(84.6000 mm, 100.5000 mm): Empreinte C17
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(181.0000 mm, 108.5000 mm): Empreinte R21
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(88.2000 mm, 103.0000 mm): Empreinte R3
+[lib_footprint_mismatch]: L’empreinte 'C_0805_2012Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(154.5000 mm, 63.0000 mm): Empreinte C12
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(99.0000 mm, 103.0000 mm): Empreinte R9
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(126.6000 mm, 103.0000 mm): Empreinte R8
+[lib_footprint_mismatch]: L’empreinte 'C_0603_1608Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(137.4000 mm, 103.0000 mm): Empreinte C16
+[lib_footprint_mismatch]: L’empreinte 'LED_0603_1608Metric' ne correspond pas à la copie en librairie 'LED_SMD'
+    Local override; warning
+    @(187.0000 mm, 81.0000 mm): Empreinte D10
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(81.0000 mm, 100.5000 mm): Empreinte R11
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(106.6000 mm, 97.5000 mm): Empreinte R14
+[lib_footprint_mismatch]: L’empreinte 'R_1206_3216Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(163.0000 mm, 135.0000 mm): Empreinte R23
+[lib_footprint_mismatch]: L’empreinte 'C_0603_1608Metric' ne correspond pas à la copie en librairie 'Capacitor_SMD'
+    Local override; warning
+    @(95.4000 mm, 103.0000 mm): Empreinte C15
+[lib_footprint_mismatch]: L’empreinte 'SMDIP-4_W9.53mm' ne correspond pas à la copie en librairie 'Package_DIP'
+    Local override; warning
+    @(176.0000 mm, 130.0000 mm): Empreinte U8
+[lib_footprint_mismatch]: L’empreinte 'R_0603_1608Metric' ne correspond pas à la copie en librairie 'Resistor_SMD'
+    Local override; warning
+    @(75.6000 mm, 81.0000 mm): Empreinte R16
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(172.7650 mm, 132.6000 mm): Segment de U8 sur F.Silkscreen
+    @(175.0000 mm, 133.1800 mm): Champ référence de R25
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(146.1000 mm, 113.5000 mm): Cercle de C2 sur F.Silkscreen
+    @(140.7300 mm, 114.8000 mm): Champ référence de C6
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(158.7650 mm, 132.6000 mm): Segment de U7 sur F.Silkscreen
+    @(163.0000 mm, 133.1800 mm): Champ référence de R23
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(80.7627 mm, 101.0225 mm): Segment de R11 sur F.Silkscreen
+    @(81.0000 mm, 101.5700 mm): Champ référence de R4
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(84.6000 mm, 101.5700 mm): Champ référence de R7
+    @(84.4594 mm, 101.0100 mm): Segment de C17 sur F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(98.7300 mm, 114.8000 mm): Champ référence de C4
+    @(104.1000 mm, 113.5000 mm): Cercle de C1 sur F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(122.7627 mm, 101.0225 mm): Segment de R12 sur F.Silkscreen
+    @(123.0000 mm, 101.5700 mm): Champ référence de R6
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(126.6000 mm, 101.5700 mm): Champ référence de R8
+    @(126.4594 mm, 101.0100 mm): Segment de C18 sur F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(154.2627 mm, 69.5225 mm): Segment de R17 sur F.Silkscreen
+    @(154.5000 mm, 70.0700 mm): Champ référence de C14
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(96.5000 mm, 56.2500 mm): Champ référence de F4
+    @(95.0000 mm, 55.4000 mm): Pad 2 [GND] de D12 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.5000 mm, 56.2500 mm): Champ référence de F5
+    @(109.0000 mm, 55.4000 mm): Pad 2 [GND] de D13 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(81.0000 mm, 101.5700 mm): Champ référence de R4
+    @(80.1750 mm, 100.5000 mm): Pad 1 [+3V3] de R11 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(81.0000 mm, 101.5700 mm): Champ référence de R4
+    @(81.8250 mm, 100.5000 mm): Pad 2 [NFAULT1] de R11 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.6000 mm, 101.5700 mm): Champ référence de R7
+    @(85.3750 mm, 100.5000 mm): Pad 2 [GND] de C17 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.6000 mm, 101.5700 mm): Champ référence de R7
+    @(83.8250 mm, 100.5000 mm): Pad 1 [ISENSE1] de C17 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(123.0000 mm, 101.5700 mm): Champ référence de R6
+    @(122.1750 mm, 100.5000 mm): Pad 1 [+3V3] de R12 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(123.0000 mm, 101.5700 mm): Champ référence de R6
+    @(123.8250 mm, 100.5000 mm): Pad 2 [NFAULT2] de R12 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(126.6000 mm, 101.5700 mm): Champ référence de R8
+    @(125.8250 mm, 100.5000 mm): Pad 1 [ISENSE2] de C18 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(126.6000 mm, 101.5700 mm): Champ référence de R8
+    @(127.3750 mm, 100.5000 mm): Pad 2 [GND] de C18 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.5000 mm, 70.0700 mm): Champ référence de C14
+    @(155.3250 mm, 69.0000 mm): Pad 2 [EN] de R17 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.5000 mm, 70.0700 mm): Champ référence de C14
+    @(153.6750 mm, 69.0000 mm): Pad 1 [+3V3] de R17 sur F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 233 Footprint errors **
+[net_conflict]: Le net (VM1) du pad ne correspond pas à celui donné par la schématique (/VM1)
+    Local override; warning
+    @(101.6000 mm, 113.5000 mm): Pad métallisé 1 [VM1] de C1
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(106.6000 mm, 113.5000 mm): Pad métallisé 2 [GND] de C1
+[net_conflict]: Le net (VM2) du pad ne correspond pas à celui donné par la schématique (/VM2)
+    Local override; warning
+    @(143.6000 mm, 113.5000 mm): Pad métallisé 1 [VM2] de C2
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(148.6000 mm, 113.5000 mm): Pad métallisé 2 [GND] de C2
+[net_conflict]: Le net (VM1) du pad ne correspond pas à celui donné par la schématique (/VM1)
+    Local override; warning
+    @(77.3250 mm, 106.2000 mm): Pad 1 [VM1] de C3 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(78.8750 mm, 106.2000 mm): Pad 2 [GND] de C3 sur F.Cu
+[net_conflict]: Le net (VM1) du pad ne correspond pas à celui donné par la schématique (/VM1)
+    Local override; warning
+    @(97.3000 mm, 114.0250 mm): Pad 1 [VM1] de C4 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(97.3000 mm, 115.5750 mm): Pad 2 [GND] de C4 sur F.Cu
+[net_conflict]: Le net (VM2) du pad ne correspond pas à celui donné par la schématique (/VM2)
+    Local override; warning
+    @(119.3250 mm, 106.2000 mm): Pad 1 [VM2] de C5 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(120.8750 mm, 106.2000 mm): Pad 2 [GND] de C5 sur F.Cu
+[net_conflict]: Le net (VM2) du pad ne correspond pas à celui donné par la schématique (/VM2)
+    Local override; warning
+    @(139.3000 mm, 114.0250 mm): Pad 1 [VM2] de C6 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(139.3000 mm, 115.5750 mm): Pad 2 [GND] de C6 sur F.Cu
+[net_conflict]: Le net (VBUS) du pad ne correspond pas à celui donné par la schématique (/VBUS)
+    Local override; warning
+    @(59.0000 mm, 101.0000 mm): Pad métallisé 1 [VBUS] de C7
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(62.5000 mm, 101.0000 mm): Pad métallisé 2 [GND] de C7
+[net_conflict]: Le net (+5V) du pad ne correspond pas à celui donné par la schématique (/+5V)
+    Local override; warning
+    @(65.5500 mm, 70.0000 mm): Pad 1 [+5V] de C8 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(67.4500 mm, 70.0000 mm): Pad 2 [GND] de C8 sur F.Cu
+[net_conflict]: Le net (VLDO) du pad ne correspond pas à celui donné par la schématique (/VLDO)
+    Local override; warning
+    @(80.0500 mm, 75.0000 mm): Pad 1 [VLDO] de C9 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(81.9500 mm, 75.0000 mm): Pad 2 [GND] de C9 sur F.Cu
+[net_conflict]: Le net (+3V3) du pad ne correspond pas à celui donné par la schématique (/+3V3)
+    Local override; warning
+    @(96.5500 mm, 74.0000 mm): Pad 1 [+3V3] de C10 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(98.4500 mm, 74.0000 mm): Pad 2 [GND] de C10 sur F.Cu
+[net_conflict]: Le net (+3V3) du pad ne correspond pas à celui donné par la schématique (/+3V3)
+    Local override; warning
+    @(96.7250 mm, 77.0000 mm): Pad 1 [+3V3] de C11 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(98.2750 mm, 77.0000 mm): Pad 2 [GND] de C11 sur F.Cu
+[net_conflict]: Le net (+3V3) du pad ne correspond pas à celui donné par la schématique (/+3V3)
+    Local override; warning
+    @(153.5500 mm, 63.0000 mm): Pad 1 [+3V3] de C12 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(155.4500 mm, 63.0000 mm): Pad 2 [GND] de C12 sur F.Cu
+[net_conflict]: Le net (+3V3) du pad ne correspond pas à celui donné par la schématique (/+3V3)
+    Local override; warning
+    @(153.7250 mm, 66.0000 mm): Pad 1 [+3V3] de C13 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(155.2750 mm, 66.0000 mm): Pad 2 [GND] de C13 sur F.Cu
+[net_conflict]: Le net (EN) du pad ne correspond pas à celui donné par la schématique (/EN)
+    Local override; warning
+    @(153.7250 mm, 71.5000 mm): Pad 1 [EN] de C14 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(155.2750 mm, 71.5000 mm): Pad 2 [GND] de C14 sur F.Cu
+[net_conflict]: Le net (IPROPI1) du pad ne correspond pas à celui donné par la schématique (/IPROPI1)
+    Local override; warning
+    @(94.6250 mm, 103.0000 mm): Pad 1 [IPROPI1] de C15 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(96.1750 mm, 103.0000 mm): Pad 2 [GND] de C15 sur F.Cu
+[net_conflict]: Le net (IPROPI2) du pad ne correspond pas à celui donné par la schématique (/IPROPI2)
+    Local override; warning
+    @(136.6250 mm, 103.0000 mm): Pad 1 [IPROPI2] de C16 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(138.1750 mm, 103.0000 mm): Pad 2 [GND] de C16 sur F.Cu
+[net_conflict]: Le net (ISENSE1) du pad ne correspond pas à celui donné par la schématique (/ISENSE1)
+    Local override; warning
+    @(83.8250 mm, 100.5000 mm): Pad 1 [ISENSE1] de C17 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(85.3750 mm, 100.5000 mm): Pad 2 [GND] de C17 sur F.Cu
+[net_conflict]: Le net (ISENSE2) du pad ne correspond pas à celui donné par la schématique (/ISENSE2)
+    Local override; warning
+    @(125.8250 mm, 100.5000 mm): Pad 1 [ISENSE2] de C18 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(127.3750 mm, 100.5000 mm): Pad 2 [GND] de C18 sur F.Cu
+[net_conflict]: Le net (VSENSE) du pad ne correspond pas à celui donné par la schématique (/VSENSE)
+    Local override; warning
+    @(78.4250 mm, 81.0000 mm): Pad 1 [VSENSE] de C19 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(79.9750 mm, 81.0000 mm): Pad 2 [GND] de C19 sur F.Cu
+[net_conflict]: Le net (M1_A) du pad ne correspond pas à celui donné par la schématique (/M1_A)
+    Local override; warning
+    @(79.3250 mm, 132.5000 mm): Pad 1 [M1_A] de C20 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(80.8750 mm, 132.5000 mm): Pad 2 [GND] de C20 sur F.Cu
+[net_conflict]: Le net (M1_B) du pad ne correspond pas à celui donné par la schématique (/M1_B)
+    Local override; warning
+    @(92.6750 mm, 132.5000 mm): Pad 1 [M1_B] de C21 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(91.1250 mm, 132.5000 mm): Pad 2 [GND] de C21 sur F.Cu
+[net_conflict]: Le net (M2_A) du pad ne correspond pas à celui donné par la schématique (/M2_A)
+    Local override; warning
+    @(121.3250 mm, 132.5000 mm): Pad 1 [M2_A] de C22 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(122.8750 mm, 132.5000 mm): Pad 2 [GND] de C22 sur F.Cu
+[net_conflict]: Le net (M2_B) du pad ne correspond pas à celui donné par la schématique (/M2_B)
+    Local override; warning
+    @(134.6750 mm, 132.5000 mm): Pad 1 [M2_B] de C23 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(133.1250 mm, 132.5000 mm): Pad 2 [GND] de C23 sur F.Cu
+[net_conflict]: Le net (+12V) du pad ne correspond pas à celui donné par la schématique (/+12V)
+    Local override; warning
+    @(81.5250 mm, 70.5000 mm): Pad 1 [+12V] de C24 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(84.4750 mm, 70.5000 mm): Pad 2 [GND] de C24 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(80.7000 mm, 115.4500 mm): Empreinte C25
+[net_conflict]: Le net (VM1) du pad ne correspond pas à celui donné par la schématique (/VM1)
+    Local override; warning
+    @(80.7000 mm, 113.9750 mm): Pad 1 [VM1] de C25 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(80.7000 mm, 116.9250 mm): Pad 2 [GND] de C25 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(91.3000 mm, 115.4500 mm): Empreinte C26
+[net_conflict]: Le net (VM1) du pad ne correspond pas à celui donné par la schématique (/VM1)
+    Local override; warning
+    @(91.3000 mm, 113.9750 mm): Pad 1 [VM1] de C26 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(91.3000 mm, 116.9250 mm): Pad 2 [GND] de C26 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(122.7000 mm, 115.4500 mm): Empreinte C27
+[net_conflict]: Le net (VM2) du pad ne correspond pas à celui donné par la schématique (/VM2)
+    Local override; warning
+    @(122.7000 mm, 113.9750 mm): Pad 1 [VM2] de C27 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(122.7000 mm, 116.9250 mm): Pad 2 [GND] de C27 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(133.3000 mm, 115.4500 mm): Empreinte C28
+[net_conflict]: Le net (VM2) du pad ne correspond pas à celui donné par la schématique (/VM2)
+    Local override; warning
+    @(133.3000 mm, 113.9750 mm): Pad 1 [VM2] de C28 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(133.3000 mm, 116.9250 mm): Pad 2 [GND] de C28 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(61.0000 mm, 109.6000 mm): Empreinte D1
+[net_conflict]: Le net (VBUS) du pad ne correspond pas à celui donné par la schématique (/VBUS)
+    Local override; warning
+    @(57.6000 mm, 109.6000 mm): Pad 1 [VBUS] de D1 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(64.4000 mm, 109.6000 mm): Pad 2 [GND] de D1 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(66.0000 mm, 75.0000 mm): Empreinte D2
+[net_conflict]: Le net (VLDO) du pad ne correspond pas à celui donné par la schématique (/VLDO)
+    Local override; warning
+    @(64.0000 mm, 75.0000 mm): Pad 1 [VLDO] de D2 sur F.Cu
+[net_conflict]: Le net (+5V) du pad ne correspond pas à celui donné par la schématique (/+5V)
+    Local override; warning
+    @(68.0000 mm, 75.0000 mm): Pad 2 [+5V] de D2 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(75.0000 mm, 75.0000 mm): Empreinte D3
+[net_conflict]: Le net (VLDO) du pad ne correspond pas à celui donné par la schématique (/VLDO)
+    Local override; warning
+    @(73.0000 mm, 75.0000 mm): Pad 1 [VLDO] de D3 sur F.Cu
+[net_conflict]: Le net (USB_VBUS) du pad ne correspond pas à celui donné par la schématique (/USB_VBUS)
+    Local override; warning
+    @(77.0000 mm, 75.0000 mm): Pad 2 [USB_VBUS] de D3 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(157.0000 mm, 117.0000 mm): Empreinte D4
+[net_conflict]: Le net (PP_A) du pad ne correspond pas à celui donné par la schématique (/PP_A)
+    Local override; warning
+    @(155.3500 mm, 117.0000 mm): Pad 1 [PP_A] de D4 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(158.6500 mm, 117.0000 mm): Pad 2 [GND] de D4 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(163.0000 mm, 117.0000 mm): Empreinte D5
+[net_conflict]: Le net (FOTO_A) du pad ne correspond pas à celui donné par la schématique (/FOTO_A)
+    Local override; warning
+    @(161.3500 mm, 117.0000 mm): Pad 1 [FOTO_A] de D5 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(164.6500 mm, 117.0000 mm): Pad 2 [GND] de D5 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(169.0000 mm, 117.0000 mm): Empreinte D6
+[net_conflict]: Le net (RADIO_A) du pad ne correspond pas à celui donné par la schématique (/RADIO_A)
+    Local override; warning
+    @(167.3500 mm, 117.0000 mm): Pad 1 [RADIO_A] de D6 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(170.6500 mm, 117.0000 mm): Pad 2 [GND] de D6 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(175.0000 mm, 117.0000 mm): Empreinte D7
+[net_conflict]: Le net (STOP_A) du pad ne correspond pas à celui donné par la schématique (/STOP_A)
+    Local override; warning
+    @(173.3500 mm, 117.0000 mm): Pad 1 [STOP_A] de D7 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(176.6500 mm, 117.0000 mm): Pad 2 [GND] de D7 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(143.0000 mm, 122.0000 mm): Empreinte D8
+[net_conflict]: Le net (+12V_OUT) du pad ne correspond pas à celui donné par la schématique (/+12V_OUT)
+    Local override; warning
+    @(141.0000 mm, 122.0000 mm): Pad 1 [+12V_OUT] de D8 sur F.Cu
+[net_conflict]: Le net (LAMP_N) du pad ne correspond pas à celui donné par la schématique (/LAMP_N)
+    Local override; warning
+    @(145.0000 mm, 122.0000 mm): Pad 2 [LAMP_N] de D8 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(151.0000 mm, 122.0000 mm): Empreinte D9
+[net_conflict]: Le net (+12V_OUT) du pad ne correspond pas à celui donné par la schématique (/+12V_OUT)
+    Local override; warning
+    @(149.0000 mm, 122.0000 mm): Pad 1 [+12V_OUT] de D9 sur F.Cu
+[net_conflict]: Le net (AUX_N) du pad ne correspond pas à celui donné par la schématique (/AUX_N)
+    Local override; warning
+    @(153.0000 mm, 122.0000 mm): Pad 2 [AUX_N] de D9 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(186.2125 mm, 81.0000 mm): Pad 1 [GND] de D10 sur F.Cu
+[net_conflict]: Le net (LED_PWR_A) du pad ne correspond pas à celui donné par la schématique (/LED_PWR_A)
+    Local override; warning
+    @(187.7875 mm, 81.0000 mm): Pad 2 [LED_PWR_A] de D10 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(186.2125 mm, 84.0000 mm): Pad 1 [GND] de D11 sur F.Cu
+[net_conflict]: Le net (LED_ST_A) du pad ne correspond pas à celui donné par la schématique (/LED_ST_A)
+    Local override; warning
+    @(187.7875 mm, 84.0000 mm): Pad 2 [LED_ST_A] de D11 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(97.0000 mm, 55.4000 mm): Empreinte D12
+[net_conflict]: Le net (+12V_ACC) du pad ne correspond pas à celui donné par la schématique (/+12V_ACC)
+    Local override; warning
+    @(99.0000 mm, 55.4000 mm): Pad 1 [+12V_ACC] de D12 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(95.0000 mm, 55.4000 mm): Pad 2 [GND] de D12 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(111.0000 mm, 55.4000 mm): Empreinte D13
+[net_conflict]: Le net (+12V_OUT) du pad ne correspond pas à celui donné par la schématique (/+12V_OUT)
+    Local override; warning
+    @(113.0000 mm, 55.4000 mm): Pad 1 [+12V_OUT] de D13 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(109.0000 mm, 55.4000 mm): Pad 2 [GND] de D13 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(66.0000 mm, 116.9500 mm): Empreinte D14
+[net_conflict]: Le net (VBUS) du pad ne correspond pas à celui donné par la schématique (/VBUS)
+    Local override; warning
+    @(64.3500 mm, 116.9500 mm): Pad 1 [VBUS] de D14 sur F.Cu
+[net_conflict]: Le net (RP_G) du pad ne correspond pas à celui donné par la schématique (/RP_G)
+    Local override; warning
+    @(67.6500 mm, 116.9500 mm): Pad 2 [RP_G] de D14 sur F.Cu
+[net_conflict]: Le net (+24V_IN) du pad ne correspond pas à celui donné par la schématique (/+24V_IN)
+    Local override; warning
+    @(72.0000 mm, 130.0000 mm): Pad métallisé 1 [+24V_IN] de F1
+[net_conflict]: Le net (+24V_IN) du pad ne correspond pas à celui donné par la schématique (/+24V_IN)
+    Local override; warning
+    @(72.0000 mm, 126.6000 mm): Pad métallisé 1 [+24V_IN] de F1
+[net_conflict]: Le net (+24V_F) du pad ne correspond pas à celui donné par la schématique (/+24V_F)
+    Local override; warning
+    @(62.0800 mm, 130.0000 mm): Pad métallisé 2 [+24V_F] de F1
+[net_conflict]: Le net (+24V_F) du pad ne correspond pas à celui donné par la schématique (/+24V_F)
+    Local override; warning
+    @(62.0800 mm, 126.6000 mm): Pad métallisé 2 [+24V_F] de F1
+[net_conflict]: Le net (VBUS) du pad ne correspond pas à celui donné par la schématique (/VBUS)
+    Local override; warning
+    @(74.0000 mm, 95.5000 mm): Pad métallisé 1 [VBUS] de F2
+[net_conflict]: Le net (VBUS) du pad ne correspond pas à celui donné par la schématique (/VBUS)
+    Local override; warning
+    @(70.6000 mm, 95.5000 mm): Pad métallisé 1 [VBUS] de F2
+[net_conflict]: Le net (VM1) du pad ne correspond pas à celui donné par la schématique (/VM1)
+    Local override; warning
+    @(74.0000 mm, 105.4200 mm): Pad métallisé 2 [VM1] de F2
+[net_conflict]: Le net (VM1) du pad ne correspond pas à celui donné par la schématique (/VM1)
+    Local override; warning
+    @(70.6000 mm, 105.4200 mm): Pad métallisé 2 [VM1] de F2
+[net_conflict]: Le net (VBUS) du pad ne correspond pas à celui donné par la schématique (/VBUS)
+    Local override; warning
+    @(116.0000 mm, 95.5000 mm): Pad métallisé 1 [VBUS] de F3
+[net_conflict]: Le net (VBUS) du pad ne correspond pas à celui donné par la schématique (/VBUS)
+    Local override; warning
+    @(112.6000 mm, 95.5000 mm): Pad métallisé 1 [VBUS] de F3
+[net_conflict]: Le net (VM2) du pad ne correspond pas à celui donné par la schématique (/VM2)
+    Local override; warning
+    @(116.0000 mm, 105.4200 mm): Pad métallisé 2 [VM2] de F3
+[net_conflict]: Le net (VM2) du pad ne correspond pas à celui donné par la schématique (/VM2)
+    Local override; warning
+    @(112.6000 mm, 105.4200 mm): Pad métallisé 2 [VM2] de F3
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(94.0000 mm, 60.0000 mm): Empreinte F4
+[net_conflict]: Le net (+12V) du pad ne correspond pas à celui donné par la schématique (/+12V)
+    Local override; warning
+    @(94.0000 mm, 60.0000 mm): Pad métallisé 1 [+12V] de F4
+[net_conflict]: Le net (+12V_ACC) du pad ne correspond pas à celui donné par la schématique (/+12V_ACC)
+    Local override; warning
+    @(99.0000 mm, 60.0000 mm): Pad métallisé 2 [+12V_ACC] de F4
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(108.0000 mm, 60.0000 mm): Empreinte F5
+[net_conflict]: Le net (+12V) du pad ne correspond pas à celui donné par la schématique (/+12V)
+    Local override; warning
+    @(108.0000 mm, 60.0000 mm): Pad métallisé 1 [+12V] de F5
+[net_conflict]: Le net (+12V_OUT) du pad ne correspond pas à celui donné par la schématique (/+12V_OUT)
+    Local override; warning
+    @(113.0000 mm, 60.0000 mm): Pad métallisé 2 [+12V_OUT] de F5
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(70.0000 mm, 87.6000 mm): Empreinte F6
+[net_conflict]: Le net (VBUS) du pad ne correspond pas à celui donné par la schématique (/VBUS)
+    Local override; warning
+    @(70.0000 mm, 89.0000 mm): Pad 1 [VBUS] de F6 sur F.Cu
+[net_conflict]: Le net (+24V_AUX) du pad ne correspond pas à celui donné par la schématique (/+24V_AUX)
+    Local override; warning
+    @(70.0000 mm, 86.2000 mm): Pad 2 [+24V_AUX] de F6 sur F.Cu
+[net_conflict]: Le net (+24V_IN) du pad ne correspond pas à celui donné par la schématique (/+24V_IN)
+    Local override; warning
+    @(64.0000 mm, 142.5000 mm): Pad métallisé 1 [+24V_IN] de J1
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(69.0800 mm, 142.5000 mm): Pad métallisé 2 [GND] de J1
+[net_conflict]: Le net (M1_A) du pad ne correspond pas à celui donné par la schématique (/M1_A)
+    Local override; warning
+    @(83.5000 mm, 142.5000 mm): Pad métallisé 1 [M1_A] de J2
+[net_conflict]: Le net (M1_B) du pad ne correspond pas à celui donné par la schématique (/M1_B)
+    Local override; warning
+    @(88.5800 mm, 142.5000 mm): Pad métallisé 2 [M1_B] de J2
+[net_conflict]: Le net (M2_A) du pad ne correspond pas à celui donné par la schématique (/M2_A)
+    Local override; warning
+    @(125.5000 mm, 142.5000 mm): Pad métallisé 1 [M2_A] de J3
+[net_conflict]: Le net (M2_B) du pad ne correspond pas à celui donné par la schématique (/M2_B)
+    Local override; warning
+    @(130.5800 mm, 142.5000 mm): Pad métallisé 2 [M2_B] de J3
+[net_conflict]: Le net (+12V_ACC) du pad ne correspond pas à celui donné par la schématique (/+12V_ACC)
+    Local override; warning
+    @(156.0000 mm, 143.0000 mm): Pad métallisé 1 [+12V_ACC] de J4
+[net_conflict]: Le net (+12V_ACC) du pad ne correspond pas à celui donné par la schématique (/+12V_ACC)
+    Local override; warning
+    @(159.5000 mm, 143.0000 mm): Pad métallisé 2 [+12V_ACC] de J4
+[net_conflict]: Le net (IN_PP) du pad ne correspond pas à celui donné par la schématique (/IN_PP)
+    Local override; warning
+    @(163.0000 mm, 143.0000 mm): Pad métallisé 3 [IN_PP] de J4
+[net_conflict]: Le net (IN_FOTO) du pad ne correspond pas à celui donné par la schématique (/IN_FOTO)
+    Local override; warning
+    @(166.5000 mm, 143.0000 mm): Pad métallisé 4 [IN_FOTO] de J4
+[net_conflict]: Le net (IN_RADIO) du pad ne correspond pas à celui donné par la schématique (/IN_RADIO)
+    Local override; warning
+    @(170.0000 mm, 143.0000 mm): Pad métallisé 5 [IN_RADIO] de J4
+[net_conflict]: Le net (IN_STOP) du pad ne correspond pas à celui donné par la schématique (/IN_STOP)
+    Local override; warning
+    @(173.5000 mm, 143.0000 mm): Pad métallisé 6 [IN_STOP] de J4
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(177.0000 mm, 143.0000 mm): Pad métallisé 7 [GND] de J4
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(180.5000 mm, 143.0000 mm): Pad métallisé 8 [GND] de J4
+[net_conflict]: Le net (+12V_OUT) du pad ne correspond pas à celui donné par la schématique (/+12V_OUT)
+    Local override; warning
+    @(140.0000 mm, 143.0000 mm): Pad métallisé 1 [+12V_OUT] de J5
+[net_conflict]: Le net (LAMP_N) du pad ne correspond pas à celui donné par la schématique (/LAMP_N)
+    Local override; warning
+    @(143.5000 mm, 143.0000 mm): Pad métallisé 2 [LAMP_N] de J5
+[net_conflict]: Le net (+12V_OUT) du pad ne correspond pas à celui donné par la schématique (/+12V_OUT)
+    Local override; warning
+    @(147.0000 mm, 143.0000 mm): Pad métallisé 3 [+12V_OUT] de J5
+[net_conflict]: Le net (AUX_N) du pad ne correspond pas à celui donné par la schématique (/AUX_N)
+    Local override; warning
+    @(150.5000 mm, 143.0000 mm): Pad métallisé 4 [AUX_N] de J5
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(196.0000 mm, 102.0000 mm): Empreinte J6
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(192.2900 mm, 105.2000 mm): Pad A1 [GND] de J6 sur F.Cu
+[net_conflict]: Le net (USB_VBUS) du pad ne correspond pas à celui donné par la schématique (/USB_VBUS)
+    Local override; warning
+    @(192.3200 mm, 104.4000 mm): Pad A4 [USB_VBUS] de J6 sur F.Cu
+[net_conflict]: Le net (USB_CC1) du pad ne correspond pas à celui donné par la schématique (/USB_CC1)
+    Local override; warning
+    @(192.3200 mm, 103.2500 mm): Pad A5 [USB_CC1] de J6 sur F.Cu
+[net_conflict]: Le net (USB_DP) du pad ne correspond pas à celui donné par la schématique (/USB_DP)
+    Local override; warning
+    @(192.3200 mm, 102.2500 mm): Pad A6 [USB_DP] de J6 sur F.Cu
+[net_conflict]: Le net (USB_DM) du pad ne correspond pas à celui donné par la schématique (/USB_DM)
+    Local override; warning
+    @(192.3200 mm, 101.7500 mm): Pad A7 [USB_DM] de J6 sur F.Cu
+[net_conflict]: Le pad a le net manquant donné par la schématique (unconnected-(J6-SBU1-PadA8))
+    Local override; warning
+    @(192.3200 mm, 100.7500 mm): Pad A8 [<no net>] de J6 sur F.Cu
+[net_conflict]: Le net (USB_VBUS) du pad ne correspond pas à celui donné par la schématique (/USB_VBUS)
+    Local override; warning
+    @(192.3200 mm, 99.6000 mm): Pad A9 [USB_VBUS] de J6 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(192.2900 mm, 98.8000 mm): Pad A12 [GND] de J6 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(192.2900 mm, 98.8000 mm): Pad B1 [GND] de J6 sur F.Cu
+[net_conflict]: Le net (USB_VBUS) du pad ne correspond pas à celui donné par la schématique (/USB_VBUS)
+    Local override; warning
+    @(192.3200 mm, 99.6000 mm): Pad B4 [USB_VBUS] de J6 sur F.Cu
+[net_conflict]: Le net (USB_CC2) du pad ne correspond pas à celui donné par la schématique (/USB_CC2)
+    Local override; warning
+    @(192.3200 mm, 100.2500 mm): Pad B5 [USB_CC2] de J6 sur F.Cu
+[net_conflict]: Le net (USB_DP) du pad ne correspond pas à celui donné par la schématique (/USB_DP)
+    Local override; warning
+    @(192.3200 mm, 101.2500 mm): Pad B6 [USB_DP] de J6 sur F.Cu
+[net_conflict]: Le net (USB_DM) du pad ne correspond pas à celui donné par la schématique (/USB_DM)
+    Local override; warning
+    @(192.3200 mm, 102.7500 mm): Pad B7 [USB_DM] de J6 sur F.Cu
+[net_conflict]: Le pad a le net manquant donné par la schématique (unconnected-(J6-SBU2-PadB8))
+    Local override; warning
+    @(192.3200 mm, 103.7500 mm): Pad B8 [<no net>] de J6 sur F.Cu
+[net_conflict]: Le net (USB_VBUS) du pad ne correspond pas à celui donné par la schématique (/USB_VBUS)
+    Local override; warning
+    @(192.3200 mm, 104.4000 mm): Pad B9 [USB_VBUS] de J6 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(192.2900 mm, 105.2000 mm): Pad B12 [GND] de J6 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(192.8950 mm, 106.3200 mm): Pad métallisé S1 [GND] de J6
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(197.0750 mm, 106.3200 mm): Pad métallisé S1 [GND] de J6
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(192.8950 mm, 97.6800 mm): Pad métallisé S1 [GND] de J6
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(197.0750 mm, 97.6800 mm): Pad métallisé S1 [GND] de J6
+[net_conflict]: Le net (+3V3) du pad ne correspond pas à celui donné par la schématique (/+3V3)
+    Local override; warning
+    @(184.0000 mm, 62.0000 mm): Pad métallisé 1 [+3V3] de J7
+[net_conflict]: Le net (UART_TX) du pad ne correspond pas à celui donné par la schématique (/UART_TX)
+    Local override; warning
+    @(184.0000 mm, 64.5400 mm): Pad métallisé 2 [UART_TX] de J7
+[net_conflict]: Le net (UART_RX) du pad ne correspond pas à celui donné par la schématique (/UART_RX)
+    Local override; warning
+    @(184.0000 mm, 67.0800 mm): Pad métallisé 3 [UART_RX] de J7
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(184.0000 mm, 69.6200 mm): Pad métallisé 4 [GND] de J7
+[net_conflict]: Le net (+3V3) du pad ne correspond pas à celui donné par la schématique (/+3V3)
+    Local override; warning
+    @(189.5000 mm, 62.0000 mm): Pad métallisé 1 [+3V3] de J8
+[net_conflict]: Le net (EXT_IO39) du pad ne correspond pas à celui donné par la schématique (/EXT_IO39)
+    Local override; warning
+    @(189.5000 mm, 64.5400 mm): Pad métallisé 2 [EXT_IO39] de J8
+[net_conflict]: Le net (EXT_IO40) du pad ne correspond pas à celui donné par la schématique (/EXT_IO40)
+    Local override; warning
+    @(189.5000 mm, 67.0800 mm): Pad métallisé 3 [EXT_IO40] de J8
+[net_conflict]: Le net (EXT_IO41) du pad ne correspond pas à celui donné par la schématique (/EXT_IO41)
+    Local override; warning
+    @(189.5000 mm, 69.6200 mm): Pad métallisé 4 [EXT_IO41] de J8
+[net_conflict]: Le net (EXT_IO42) du pad ne correspond pas à celui donné par la schématique (/EXT_IO42)
+    Local override; warning
+    @(189.5000 mm, 72.1600 mm): Pad métallisé 5 [EXT_IO42] de J8
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(189.5000 mm, 74.7000 mm): Pad métallisé 6 [GND] de J8
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(142.0000 mm, 131.0000 mm): Empreinte Q1
+[net_conflict]: Le net (LAMP_G) du pad ne correspond pas à celui donné par la schématique (/LAMP_G)
+    Local override; warning
+    @(141.0625 mm, 130.0500 mm): Pad 1 [LAMP_G] de Q1 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(141.0625 mm, 131.9500 mm): Pad 2 [GND] de Q1 sur F.Cu
+[net_conflict]: Le net (LAMP_N) du pad ne correspond pas à celui donné par la schématique (/LAMP_N)
+    Local override; warning
+    @(142.9375 mm, 131.0000 mm): Pad 3 [LAMP_N] de Q1 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(149.0000 mm, 131.0000 mm): Empreinte Q2
+[net_conflict]: Le net (AUX_G) du pad ne correspond pas à celui donné par la schématique (/AUX_G)
+    Local override; warning
+    @(148.0625 mm, 130.0500 mm): Pad 1 [AUX_G] de Q2 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(148.0625 mm, 131.9500 mm): Pad 2 [GND] de Q2 sur F.Cu
+[net_conflict]: Le net (AUX_N) du pad ne correspond pas à celui donné par la schématique (/AUX_N)
+    Local override; warning
+    @(149.9375 mm, 131.0000 mm): Pad 3 [AUX_N] de Q2 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(59.8500 mm, 119.8500 mm): Empreinte Q3
+[net_conflict]: Le net (RP_G) du pad ne correspond pas à celui donné par la schématique (/RP_G)
+    Local override; warning
+    @(62.1300 mm, 114.8100 mm): Pad 1 [RP_G] de Q3 sur F.Cu
+[net_conflict]: Le net (+24V_F) du pad ne correspond pas à celui donné par la schématique (/+24V_F)
+    Local override; warning
+    @(59.8500 mm, 121.1100 mm): Pad 2 [+24V_F] de Q3 sur F.Cu
+[net_conflict]: Le net (VBUS) du pad ne correspond pas à celui donné par la schématique (/VBUS)
+    Local override; warning
+    @(57.5700 mm, 114.8100 mm): Pad 3 [VBUS] de Q3 sur F.Cu
+[net_conflict]: Le net (IPROPI1) du pad ne correspond pas à celui donné par la schématique (/IPROPI1)
+    Local override; warning
+    @(90.9750 mm, 103.0000 mm): Pad 1 [IPROPI1] de R1 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(92.6250 mm, 103.0000 mm): Pad 2 [GND] de R1 sur F.Cu
+[net_conflict]: Le net (IPROPI2) du pad ne correspond pas à celui donné par la schématique (/IPROPI2)
+    Local override; warning
+    @(132.9750 mm, 103.0000 mm): Pad 1 [IPROPI2] de R2 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(134.6250 mm, 103.0000 mm): Pad 2 [GND] de R2 sur F.Cu
+[net_conflict]: Le net (ITRIP1) du pad ne correspond pas à celui donné par la schématique (/ITRIP1)
+    Local override; warning
+    @(87.3750 mm, 103.0000 mm): Pad 1 [ITRIP1] de R3 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(89.0250 mm, 103.0000 mm): Pad 2 [GND] de R3 sur F.Cu
+[net_conflict]: Le net (SR1) du pad ne correspond pas à celui donné par la schématique (/SR1)
+    Local override; warning
+    @(80.1750 mm, 103.0000 mm): Pad 1 [SR1] de R4 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(81.8250 mm, 103.0000 mm): Pad 2 [GND] de R4 sur F.Cu
+[net_conflict]: Le net (ITRIP2) du pad ne correspond pas à celui donné par la schématique (/ITRIP2)
+    Local override; warning
+    @(129.3750 mm, 103.0000 mm): Pad 1 [ITRIP2] de R5 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(131.0250 mm, 103.0000 mm): Pad 2 [GND] de R5 sur F.Cu
+[net_conflict]: Le net (SR2) du pad ne correspond pas à celui donné par la schématique (/SR2)
+    Local override; warning
+    @(122.1750 mm, 103.0000 mm): Pad 1 [SR2] de R6 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(123.8250 mm, 103.0000 mm): Pad 2 [GND] de R6 sur F.Cu
+[net_conflict]: Le net (DIAG1) du pad ne correspond pas à celui donné par la schématique (/DIAG1)
+    Local override; warning
+    @(83.7750 mm, 103.0000 mm): Pad 1 [DIAG1] de R7 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(85.4250 mm, 103.0000 mm): Pad 2 [GND] de R7 sur F.Cu
+[net_conflict]: Le net (DIAG2) du pad ne correspond pas à celui donné par la schématique (/DIAG2)
+    Local override; warning
+    @(125.7750 mm, 103.0000 mm): Pad 1 [DIAG2] de R8 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(127.4250 mm, 103.0000 mm): Pad 2 [GND] de R8 sur F.Cu
+[net_conflict]: Le net (IPROPI1) du pad ne correspond pas à celui donné par la schématique (/IPROPI1)
+    Local override; warning
+    @(98.1750 mm, 103.0000 mm): Pad 1 [IPROPI1] de R9 sur F.Cu
+[net_conflict]: Le net (ISENSE1) du pad ne correspond pas à celui donné par la schématique (/ISENSE1)
+    Local override; warning
+    @(99.8250 mm, 103.0000 mm): Pad 2 [ISENSE1] de R9 sur F.Cu
+[net_conflict]: Le net (IPROPI2) du pad ne correspond pas à celui donné par la schématique (/IPROPI2)
+    Local override; warning
+    @(140.1750 mm, 103.0000 mm): Pad 1 [IPROPI2] de R10 sur F.Cu
+[net_conflict]: Le net (ISENSE2) du pad ne correspond pas à celui donné par la schématique (/ISENSE2)
+    Local override; warning
+    @(141.8250 mm, 103.0000 mm): Pad 2 [ISENSE2] de R10 sur F.Cu
+[net_conflict]: Le net (+3V3) du pad ne correspond pas à celui donné par la schématique (/+3V3)
+    Local override; warning
+    @(80.1750 mm, 100.5000 mm): Pad 1 [+3V3] de R11 sur F.Cu
+[net_conflict]: Le net (NFAULT1) du pad ne correspond pas à celui donné par la schématique (/NFAULT1)
+    Local override; warning
+    @(81.8250 mm, 100.5000 mm): Pad 2 [NFAULT1] de R11 sur F.Cu
+[net_conflict]: Le net (+3V3) du pad ne correspond pas à celui donné par la schématique (/+3V3)
+    Local override; warning
+    @(122.1750 mm, 100.5000 mm): Pad 1 [+3V3] de R12 sur F.Cu
+[net_conflict]: Le net (NFAULT2) du pad ne correspond pas à celui donné par la schématique (/NFAULT2)
+    Local override; warning
+    @(123.8250 mm, 100.5000 mm): Pad 2 [NFAULT2] de R12 sur F.Cu
+[net_conflict]: Le net (+3V3) du pad ne correspond pas à celui donné par la schématique (/+3V3)
+    Local override; warning
+    @(102.1750 mm, 97.5000 mm): Pad 1 [+3V3] de R13 sur F.Cu
+[net_conflict]: Le net (DRVOFF) du pad ne correspond pas à celui donné par la schématique (/DRVOFF)
+    Local override; warning
+    @(103.8250 mm, 97.5000 mm): Pad 2 [DRVOFF] de R13 sur F.Cu
+[net_conflict]: Le net (NSLEEP) du pad ne correspond pas à celui donné par la schématique (/NSLEEP)
+    Local override; warning
+    @(105.7750 mm, 97.5000 mm): Pad 1 [NSLEEP] de R14 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(107.4250 mm, 97.5000 mm): Pad 2 [GND] de R14 sur F.Cu
+[net_conflict]: Le net (+24V_AUX) du pad ne correspond pas à celui donné par la schématique (/+24V_AUX)
+    Local override; warning
+    @(71.1750 mm, 81.0000 mm): Pad 1 [+24V_AUX] de R15 sur F.Cu
+[net_conflict]: Le net (VSENSE) du pad ne correspond pas à celui donné par la schématique (/VSENSE)
+    Local override; warning
+    @(72.8250 mm, 81.0000 mm): Pad 2 [VSENSE] de R15 sur F.Cu
+[net_conflict]: Le net (VSENSE) du pad ne correspond pas à celui donné par la schématique (/VSENSE)
+    Local override; warning
+    @(74.7750 mm, 81.0000 mm): Pad 1 [VSENSE] de R16 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(76.4250 mm, 81.0000 mm): Pad 2 [GND] de R16 sur F.Cu
+[net_conflict]: Le net (+3V3) du pad ne correspond pas à celui donné par la schématique (/+3V3)
+    Local override; warning
+    @(153.6750 mm, 69.0000 mm): Pad 1 [+3V3] de R17 sur F.Cu
+[net_conflict]: Le net (EN) du pad ne correspond pas à celui donné par la schématique (/EN)
+    Local override; warning
+    @(155.3250 mm, 69.0000 mm): Pad 2 [EN] de R17 sur F.Cu
+[net_conflict]: Le net (+3V3) du pad ne correspond pas à celui donné par la schématique (/+3V3)
+    Local override; warning
+    @(155.1750 mm, 98.0000 mm): Pad 1 [+3V3] de R18 sur F.Cu
+[net_conflict]: Le net (BOOT) du pad ne correspond pas à celui donné par la schématique (/BOOT)
+    Local override; warning
+    @(156.8250 mm, 98.0000 mm): Pad 2 [BOOT] de R18 sur F.Cu
+[net_conflict]: Le net (+3V3) du pad ne correspond pas à celui donné par la schématique (/+3V3)
+    Local override; warning
+    @(167.1750 mm, 98.0000 mm): Pad 1 [+3V3] de R19 sur F.Cu
+[net_conflict]: Le net (BTN_LEARN) du pad ne correspond pas à celui donné par la schématique (/BTN_LEARN)
+    Local override; warning
+    @(168.8250 mm, 98.0000 mm): Pad 2 [BTN_LEARN] de R19 sur F.Cu
+[net_conflict]: Le net (USB_CC1) du pad ne correspond pas à celui donné par la schématique (/USB_CC1)
+    Local override; warning
+    @(180.1750 mm, 95.5000 mm): Pad 1 [USB_CC1] de R20 sur F.Cu
+[net_conflict]: Le net (GND) du pad ne correspond pas à celui donné par la schématique (/GND)
+    Local override; warning
+    @(181.8250 mm, 95.5000 mm): Pad 2 [GND] de R20 sur F.Cu
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(168.0000 mm, 62.7500 mm): Empreinte U1
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(86.0000 mm, 114.0000 mm): Empreinte U2
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(128.0000 mm, 114.0000 mm): Empreinte U3
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(64.0000 mm, 64.0000 mm): Empreinte U4
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(90.0000 mm, 76.0000 mm): Empreinte U5
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(180.5000 mm, 102.0000 mm): Empreinte U6
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(162.0000 mm, 130.0000 mm): Empreinte U7
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(176.0000 mm, 130.0000 mm): Empreinte U8
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(162.0000 mm, 122.5000 mm): Empreinte U9
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(176.0000 mm, 122.5000 mm): Empreinte U10
+[footprint_symbol_field_mismatch]: Champ de symbole manquant 'MPN' dans l'empreinte
+    Local override; warning
+    @(80.0000 mm, 64.0000 mm): Empreinte U11
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

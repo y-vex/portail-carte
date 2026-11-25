@@ -1,0 +1,102 @@
+Repère;Fabricant;Référence complète;Description
+C1;Nichicon;UHE1H471MPD;Electrolytique 470 uF 50 V, 105 C, diam. 10 x 30,5 mm, pas 5,0 mm, 1,69 A
+C2;Nichicon;UHE1H471MPD;Electrolytique 470 uF 50 V, 105 C, diam. 10 x 30,5 mm, pas 5,0 mm, 1,69 A
+C3;Samsung Electro-Mechanics;CL10B104KB8NNNC;MLCC 100 nF 50 V X7R 10 % 0603
+C4;Samsung Electro-Mechanics;CL10B104KB8NNNC;MLCC 100 nF 50 V X7R 10 % 0603
+C5;Samsung Electro-Mechanics;CL10B104KB8NNNC;MLCC 100 nF 50 V X7R 10 % 0603
+C6;Samsung Electro-Mechanics;CL10B104KB8NNNC;MLCC 100 nF 50 V X7R 10 % 0603
+C7;Nichicon;UHE1H101MPD;Electrolytique 100 uF 50 V, 105 C, diam. 8 x 11,5 mm, pas 3,5 mm
+C8;Samsung Electro-Mechanics;CL21B106KOQNNNE;MLCC 10 uF 16 V X7R 10 % 0805
+C9;Samsung Electro-Mechanics;CL21B475KOFNNNE;MLCC 4.7 uF 16 V X7R 10 % 0805
+C10;Samsung Electro-Mechanics;CL21B106KOQNNNE;MLCC 10 uF 16 V X7R 10 % 0805
+C11;Samsung Electro-Mechanics;CL10B104KB8NNNC;MLCC 100 nF 50 V X7R 10 % 0603
+C12;Samsung Electro-Mechanics;CL21B106KOQNNNE;MLCC 10 uF 16 V X7R 10 % 0805
+C13;Samsung Electro-Mechanics;CL10B104KB8NNNC;MLCC 100 nF 50 V X7R 10 % 0603
+C14;Samsung Electro-Mechanics;CL10B105KO8NNNC;MLCC 1 uF 16 V X7R 10 % 0603
+C15;Samsung Electro-Mechanics;CL10B103KB8NNNC;MLCC 10 nF 50 V X7R 10 % 0603
+C16;Samsung Electro-Mechanics;CL10B103KB8NNNC;MLCC 10 nF 50 V X7R 10 % 0603
+C17;Samsung Electro-Mechanics;CL10B104KB8NNNC;MLCC 100 nF 50 V X7R 10 % 0603
+C18;Samsung Electro-Mechanics;CL10B104KB8NNNC;MLCC 100 nF 50 V X7R 10 % 0603
+C19;Samsung Electro-Mechanics;CL10B104KB8NNNC;MLCC 100 nF 50 V X7R 10 % 0603
+C20;Samsung Electro-Mechanics;CL10B103KB8NNNC;MLCC 10 nF 50 V X7R 10 % 0603
+C21;Samsung Electro-Mechanics;CL10B103KB8NNNC;MLCC 10 nF 50 V X7R 10 % 0603
+C22;Samsung Electro-Mechanics;CL10B103KB8NNNC;MLCC 10 nF 50 V X7R 10 % 0603
+C23;Samsung Electro-Mechanics;CL10B103KB8NNNC;MLCC 10 nF 50 V X7R 10 % 0603
+C24;Samsung Electro-Mechanics;CL31B106KAHNNNE;MLCC 10 uF 25 V X7R 10 % 1206
+C25;Murata;GRM31CR71H475KA12L;MLCC 4.7 uF 50 V X7R 10 % 1206
+C26;Murata;GRM31CR71H475KA12L;MLCC 4.7 uF 50 V X7R 10 % 1206
+C27;Murata;GRM31CR71H475KA12L;MLCC 4.7 uF 50 V X7R 10 % 1206
+C28;Murata;GRM31CR71H475KA12L;MLCC 4.7 uF 50 V X7R 10 % 1206
+D1;Diodes Incorporated;SMCJ24A-13-F;TVS unidirectionnelle 1500 W 24 V, SMC
+D2;Vishay;SS14-E3/61T;Schottky 1 A 40 V, DO-214AC (SMA)
+D3;Vishay;SS14-E3/61T;Schottky 1 A 40 V, DO-214AC (SMA)
+D4;Diodes Incorporated;1N4148W-7-F;Diode de commutation 100 V, SOD-123
+D5;Diodes Incorporated;1N4148W-7-F;Diode de commutation 100 V, SOD-123
+D6;Diodes Incorporated;1N4148W-7-F;Diode de commutation 100 V, SOD-123
+D7;Diodes Incorporated;1N4148W-7-F;Diode de commutation 100 V, SOD-123
+D8;Vishay;SS16-E3/61T;Schottky 1 A 60 V, DO-214AC (SMA)
+D9;Vishay;SS16-E3/61T;Schottky 1 A 60 V, DO-214AC (SMA)
+D10;Kingbright;APT1608SGC;LED verte 0603, Vf typ 2,2 V
+D11;Kingbright;APT1608EC;LED rouge 0603, Vf typ 2,0 V
+D12;Diodes Incorporated;SMAJ15A-13-F;TVS unidirectionnelle 400 W 15 V, SMA
+D13;Diodes Incorporated;SMAJ15A-13-F;TVS unidirectionnelle 400 W 15 V, SMA
+D14;Diodes Incorporated;BZT52C12-7-F;Zener 12 V 5 % 500 mW, SOD-123
+F1;Keystone;3568;Porte-fusible pour fusible lame Mini, traversant, 30 A
+F2;Keystone;3568;Porte-fusible pour fusible lame Mini, traversant, 30 A
+F3;Keystone;3568;Porte-fusible pour fusible lame Mini, traversant, 30 A
+F4;Littelfuse;RXEF050;PTC réarmable 0,5 A hold / 1 A trip, 72 V, radial
+F5;Littelfuse;RXEF110;PTC réarmable 1,1 A hold / 2,2 A trip, 72 V, radial
+F6;Littelfuse;0468002.NR;Fusible CMS 1206 2 A temporisé (Slo-Blo, série 468), 63 V
+J1;Phoenix Contact;1715721;Bornier a vis MKDS 1,5/2-5,08, 2 points, pas 5,08 mm
+J2;Phoenix Contact;1715721;Bornier a vis MKDS 1,5/2-5,08, 2 points, pas 5,08 mm
+J3;Phoenix Contact;1715721;Bornier a vis MKDS 1,5/2-5,08, 2 points, pas 5,08 mm
+J4;Phoenix Contact;1984675;Bornier a vis PT 1,5/8-3,5-H, 8 points, pas 3,5 mm
+J5;Phoenix Contact;1984633;Bornier a vis PT 1,5/4-3,5-H, 4 points, pas 3,5 mm
+J6;GCT;USB4105-GF-A;Embase USB-C 16 broches USB 2.0, CMS, montage sur le dessus
+J7;Würth Elektronik;61300411121;Barrette mâle 1x4, 2,54 mm, droite, traversante (WR-PHD)
+J8;Würth Elektronik;61300611121;Barrette mâle 1x6, 2,54 mm, droite, traversante (WR-PHD)
+Q1;Alpha & Omega Semiconductor;AO3422;MOSFET N 55 V, 2,1 A, SOT-23
+Q2;Alpha & Omega Semiconductor;AO3422;MOSFET N 55 V, 2,1 A, SOT-23
+Q3;Infineon;IPD50P04P4L11ATMA2;MOSFET P 40 V, 50 A, 10,6 mΩ, TO-252 (OptiMOS-P2)
+R1;Yageo;RC0603FR-071K2L;Résistance 1,2 kΩ 1 % 0,1 W 0603
+R2;Yageo;RC0603FR-071K2L;Résistance 1,2 kΩ 1 % 0,1 W 0603
+R9;Yageo;RC0603FR-0710KL;Résistance 10 kΩ 1 % 0,1 W 0603
+R10;Yageo;RC0603FR-0710KL;Résistance 10 kΩ 1 % 0,1 W 0603
+R11;Yageo;RC0603FR-0710KL;Résistance 10 kΩ 1 % 0,1 W 0603
+R14;Yageo;RC0603FR-07100KL;Résistance 100 kΩ 1 % 0,1 W 0603
+R15;Yageo;RC0603FR-07100KL;Résistance 100 kΩ 1 % 0,1 W 0603
+R16;Yageo;RC0603FR-0710KL;Résistance 10 kΩ 1 % 0,1 W 0603
+R17;Yageo;RC0603FR-0710KL;Résistance 10 kΩ 1 % 0,1 W 0603
+R18;Yageo;RC0603FR-0710KL;Résistance 10 kΩ 1 % 0,1 W 0603
+R19;Yageo;RC0603FR-0710KL;Résistance 10 kΩ 1 % 0,1 W 0603
+R20;Yageo;RC0603FR-075K1L;Résistance 5,1 kΩ 1 % 0,1 W 0603
+R21;Yageo;RC0603FR-075K1L;Résistance 5,1 kΩ 1 % 0,1 W 0603
+R22;Yageo;RC1206FR-072K2L;Résistance 2,2 kΩ 1 % 0,25 W 1206
+R23;Yageo;RC1206FR-072K2L;Résistance 2,2 kΩ 1 % 0,25 W 1206
+R24;Yageo;RC1206FR-072K2L;Résistance 2,2 kΩ 1 % 0,25 W 1206
+R25;Yageo;RC1206FR-072K2L;Résistance 2,2 kΩ 1 % 0,25 W 1206
+R26;Yageo;RC0603FR-0710KL;Résistance 10 kΩ 1 % 0,1 W 0603
+R27;Yageo;RC0603FR-0710KL;Résistance 10 kΩ 1 % 0,1 W 0603
+R28;Yageo;RC0603FR-0710KL;Résistance 10 kΩ 1 % 0,1 W 0603
+R29;Yageo;RC0603FR-0710KL;Résistance 10 kΩ 1 % 0,1 W 0603
+R30;Yageo;RC0603FR-07100RL;Résistance 100 Ω 1 % 0,1 W 0603
+R31;Yageo;RC0603FR-07100RL;Résistance 100 Ω 1 % 0,1 W 0603
+R32;Yageo;RC0603FR-07100KL;Résistance 100 kΩ 1 % 0,1 W 0603
+R33;Yageo;RC0603FR-07100KL;Résistance 100 kΩ 1 % 0,1 W 0603
+R34;Yageo;RC0603FR-071KL;Résistance 1 kΩ 1 % 0,1 W 0603
+R35;Yageo;RC0603FR-071KL;Résistance 1 kΩ 1 % 0,1 W 0603
+R36;Yageo;RC0603FR-0710KL;Résistance 10 kΩ 1 % 0,1 W 0603
+SW1;E-Switch;TL3342F450QG;Bouton poussoir CMS 450 gf
+SW2;E-Switch;TL3342F450QG;Bouton poussoir CMS 450 gf
+SW3;E-Switch;TL3342F450QG;Bouton poussoir CMS 450 gf
+U1;Espressif Systems;ESP32-S3-WROOM-1-N8;Module Wi-Fi/BLE ESP32-S3, 8 Mo flash, antenne PCB
+U2;Texas Instruments;DRV8245SQRXZRQ1;Pont en H 16-VQFN-HR, variante SPI (S), Q1 automobile
+U3;Texas Instruments;DRV8245SQRXZRQ1;Pont en H 16-VQFN-HR, variante SPI (S), Q1 automobile
+U4;Traco Power;TSR 1-2450;Convertisseur 6,5-36 V vers 5 V / 1 A, SIP-3 traversant
+U5;Diodes Incorporated;AP7361C-33ER-13;LDO 3,3 V 1 A, SOT-223 brochage R (1 GND, 2 sortie, 3 entrée)
+U6;STMicroelectronics;USBLC6-2SC6;Protection ESD USB, SOT-23-6
+U7;Lite-On;LTV-817S-TA1;Optocoupleur 4 broches CMS (SMDIP-4), CTR non trié, bobine
+U8;Lite-On;LTV-817S-TA1;Optocoupleur 4 broches CMS (SMDIP-4), CTR non trié, bobine
+U9;Lite-On;LTV-817S-TA1;Optocoupleur 4 broches CMS (SMDIP-4), CTR non trié, bobine
+U10;Lite-On;LTV-817S-TA1;Optocoupleur 4 broches CMS (SMDIP-4), CTR non trié, bobine
+U11;Traco Power;TSR 1-24120;Convertisseur 15-36 V vers 12 V / 1 A, SIP-3 traversant

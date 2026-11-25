@@ -1,0 +1,217 @@
+(kicad_symbol_lib
+  (version 20220914)
+  (generator kicad_symbol_editor)
+  (symbol "DRV8245S_VQFN16"
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at -12.7 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "DRV8245S_VQFN16" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "portail:DRV8245_VQFN-HR-16_RXZ" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/gpn/DRV8245-Q1"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Pont en H 32 A, mesure de courant intégrée, variante SPI (S), VQFN-HR 16 broches"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "DRV8245S_VQFN16_0_1"
+      (rectangle
+        (start -12.7 15.24)
+        (end 12.7 -15.24)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
+      )
+    )
+    (symbol "DRV8245S_VQFN16_1_1"
+      (pin input line
+        (at -15.24 12.7 0)
+        (length 2.54)
+        (name "EN/IN1" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -15.24 10.16 0)
+        (length 2.54)
+        (name "PH/IN2" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -15.24 7.62 0)
+        (length 2.54)
+        (name "DRVOFF" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -15.24 5.08 0)
+        (length 2.54)
+        (name "nSLEEP" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin open_collector line
+        (at -15.24 2.54 0)
+        (length 2.54)
+        (name "nFAULT" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -15.24 -2.54 0)
+        (length 2.54)
+        (name "IPROPI" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -15.24 -5.08 0)
+        (length 2.54)
+        (name "nSCS" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -15.24 -7.62 0)
+        (length 2.54)
+        (name "SCLK" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -15.24 -10.16 0)
+        (length 2.54)
+        (name "SDI" (effects (font (size 1.27 1.27))))
+        (number "15" (effects (font (size 1.27 1.27))))
+      )
+      (pin output line
+        (at -15.24 -12.7 0)
+        (length 2.54)
+        (name "SDO" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line
+        (at 15.24 12.7 180)
+        (length 2.54)
+        (name "VM" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin output line
+        (at 15.24 5.08 180)
+        (length 2.54)
+        (name "OUT1" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 15.24 5.08 180)
+        (length 2.54)
+        hide
+        (name "OUT1" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin output line
+        (at 15.24 -5.08 180)
+        (length 2.54)
+        (name "OUT2" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 15.24 -5.08 180)
+        (length 2.54)
+        hide
+        (name "OUT2" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line
+        (at 15.24 -12.7 180)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "PMOS_GDS"
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "Q" (at -5.08 6.35 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "PMOS_GDS" (at -5.08 -6.35 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "MOSFET canal P, boitier DPAK : 1 = grille, 2 = drain (languette), 3 = source"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "PMOS_GDS_0_1"
+      (rectangle (start -5.08 5.08) (end 5.08 -5.08) (stroke (width 0.254) (type default)) (fill (type background)))
+    )
+    (symbol "PMOS_GDS_1_1"
+      (pin input line
+        (at -7.62 0 0)
+        (length 2.54)
+        (name "G" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 2.54 180)
+        (length 2.54)
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 7.62 -2.54 180)
+        (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "TestPoint"
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "TP" (at -2.54 2.54 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "TestPoint" (at -2.54 -2.54 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "Pastille de test" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "TestPoint_0_1"
+      (rectangle (start -2.54 1.27) (end 2.54 -1.27) (stroke (width 0.254) (type default)) (fill (type background)))
+    )
+    (symbol "TestPoint_1_1"
+      (pin passive line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "LDO_SOT223R"
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at -5.08 6.35 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "LDO_SOT223R" (at -5.08 -6.35 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "Régulateur 3,3 V SOT-223 brochage R : 1 = GND, 2 = sortie (languette), 3 = entrée"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "LDO_SOT223R_0_1"
+      (rectangle (start -5.08 5.08) (end 5.08 -5.08) (stroke (width 0.254) (type default)) (fill (type background)))
+    )
+    (symbol "LDO_SOT223R_1_1"
+      (pin power_in line
+        (at -7.62 0 0)
+        (length 2.54)
+        (name "VI" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_out line
+        (at 7.62 0 180)
+        (length 2.54)
+        (name "VO" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line
+        (at 0 -7.62 90)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)

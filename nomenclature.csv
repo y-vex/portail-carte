@@ -1,0 +1,60 @@
+Repères;Qté;Valeur;Fabricant;Référence fabricant;Empreinte KiCad;Monté;Remarque
+C1, C2;2;470u 50V;Nichicon;UHE1H471MPD;Capacitor_THT:CP_Radial_D10.0mm_P5.00mm;oui;Electrolytique 470 uF 50 V, 105 C, diam. 10 x 30,5 mm, pas 5,0 mm, 1,69 A
+C3, C4, C5, C6, C11, C13, C17, C18, C19;9;100n 50V;Samsung Electro-Mechanics;CL10B104KB8NNNC;Capacitor_SMD:C_0603_1608Metric;oui;MLCC 100 nF 50 V X7R 10 % 0603
+C7;1;100u 50V;Nichicon;UHE1H101MPD;Capacitor_THT:CP_Radial_D8.0mm_P3.50mm;oui;Electrolytique 100 uF 50 V, 105 C, diam. 8 x 11,5 mm, pas 3,5 mm
+C8, C10, C12;3;10u 16V;Samsung Electro-Mechanics;CL21B106KOQNNNE;Capacitor_SMD:C_0805_2012Metric;oui;MLCC 10 uF 16 V X7R 10 % 0805
+C9;1;4.7u 16V;Samsung Electro-Mechanics;CL21B475KOFNNNE;Capacitor_SMD:C_0805_2012Metric;oui;MLCC 4.7 uF 16 V X7R 10 % 0805
+C14;1;1u 16V;Samsung Electro-Mechanics;CL10B105KO8NNNC;Capacitor_SMD:C_0603_1608Metric;oui;MLCC 1 uF 16 V X7R 10 % 0603
+C15, C16;2;10n 50V;Samsung Electro-Mechanics;CL10B103KB8NNNC;Capacitor_SMD:C_0603_1608Metric;oui;MLCC 10 nF 50 V X7R 10 % 0603
+C20, C21, C22, C23;4;10n 50V;Samsung Electro-Mechanics;CL10B103KB8NNNC;Capacitor_SMD:C_0603_1608Metric;oui;Antiparasite de sortie moteur
+C24;1;10u 25V;Samsung Electro-Mechanics;CL31B106KAHNNNE;Capacitor_SMD:C_1206_3216Metric;oui;MLCC 10 uF 25 V X7R 10 % 1206
+C25, C27;2;4.7u 50V;Murata;GRM31CR71H475KA12L;Capacitor_SMD:C_1206_3216Metric;oui;Céramique X7R au plus près des broches VM (côté gauche)
+C26, C28;2;4.7u 50V;Murata;GRM31CR71H475KA12L;Capacitor_SMD:C_1206_3216Metric;oui;Céramique X7R au plus près des broches VM (côté droit)
+D1;1;SMCJ24A;Diodes Incorporated;SMCJ24A-13-F;Diode_SMD:D_SMC;oui;"TVS 1500 W, 24 V, côté carte ; l'anti-inversion est assurée par Q3"
+D2, D3;2;SS14;Vishay;SS14-E3/61T;Diode_SMD:D_SMA;oui;Schottky 1 A 40 V, DO-214AC (SMA)
+D4, D5, D6, D7;4;1N4148W;Diodes Incorporated;1N4148W-7-F;Diode_SMD:D_SOD-123;oui;Diode de commutation 100 V, SOD-123
+D8, D9;2;SS16;Vishay;SS16-E3/61T;Diode_SMD:D_SMA;oui;Diode de roue libre 60 V / 1 A
+D10;1;verte;Kingbright;APT1608SGC;LED_SMD:LED_0603_1608Metric;oui;LED alimentation
+D11;1;rouge;Kingbright;APT1608EC;LED_SMD:LED_0603_1608Metric;oui;"LED état ; rouge car une bleue (3,3 V) ne s'allume pas sur une sortie 3,3 V"
+D12;1;SMAJ15A;Diodes Incorporated;SMAJ15A-13-F;Diode_SMD:D_SMA;oui;TVS 15 V sur le départ accessoires (câbles extérieurs)
+D13;1;SMAJ15A;Diodes Incorporated;SMAJ15A-13-F;Diode_SMD:D_SMA;oui;TVS 15 V sur le départ des sorties (câbles extérieurs)
+D14;1;BZT52C12;Diodes Incorporated;BZT52C12-7-F;Diode_SMD:D_SOD-123;oui;Zener 12 V : limite la tension grille-source de Q3
+F1;1;15A lame mini;Keystone;3568;Fuse:Fuseholder_Blade_Mini_Keystone_3568;oui;Porte-fusible lame mini + fusible 15 A
+F2, F3;2;10A lame mini;Keystone;3568;Fuse:Fuseholder_Blade_Mini_Keystone_3568;oui;Porte-fusible lame mini + fusible 10 A
+F4;1;RXEF050;Littelfuse;RXEF050;Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm;oui;"Fusible réarmable 0,5 A / 72 V, radial pas 5 mm ; empreinte à valider"
+F5;1;RXEF110;Littelfuse;RXEF110;Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm;oui;"Fusible réarmable 1,1 A, radial pas 5 mm ; empreinte à valider"
+F6;1;2A T 1206;Littelfuse;0468002.NR;Fuse:Fuse_1206_3216Metric;oui;Fusible CMS 1206 2 A temporisé, 63 V : protège la branche des convertisseurs
+J1;1;24V DC IN;Phoenix Contact;1715721;TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal;oui;Bornier à vis 2 points, pas 5,08 mm
+J2;1;MOTEUR 1;Phoenix Contact;1715721;TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal;oui;Bornier à vis 2 points, pas 5,08 mm
+J3;1;MOTEUR 2;Phoenix Contact;1715721;TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal;oui;Bornier à vis 2 points, pas 5,08 mm
+J4;1;ENTREES;Phoenix Contact;1984675;TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-8-3.5-H_1x08_P3.50mm_Horizontal;oui;Bornier à vis 8 points, pas 3,5 mm
+J5;1;SORTIES;Phoenix Contact;1984633;TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal;oui;Bornier à vis 4 points, pas 3,5 mm
+J6;1;USB-C;GCT;USB4105-GF-A;Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal;oui;Embase USB-C 16 broches USB 2.0 (GCT, distribuée en Europe)
+J7;1;DEBUG UART;Würth Elektronik;61300411121;Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical;oui;Barrette mâle 1x4, 2,54 mm, droite, traversante (WR-PHD)
+J8;1;EXTENSION;Würth Elektronik;61300611121;Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical;oui;Barrette mâle 1x6, 2,54 mm, droite, traversante (WR-PHD)
+Q1, Q2;2;AO3422;Alpha & Omega Semiconductor;AO3422;Package_TO_SOT_SMD:SOT-23;oui;MOSFET N 55 V, 2,1 A, commande 2,5 V
+Q3;1;IPD50P04P4L-11;Infineon;IPD50P04P4L11ATMA2;Package_TO_SOT_SMD:TO-252-2;oui;MOSFET P 40 V anti-inversion, drain côté entrée, source côté carte
+R1, R2;2;1.2k 1%;Yageo;RC0603FR-071K2L;Resistor_SMD:R_0603_1608Metric;oui;Résistance 1,2 kΩ 1 % 0,1 W 0603
+R9, R10, R17, R18, R19, R26, R27, R28, R29;9;10k;Yageo;RC0603FR-0710KL;Resistor_SMD:R_0603_1608Metric;oui;Résistance 10 kΩ 1 % 0,1 W 0603
+R11;1;10k;Yageo;RC0603FR-0710KL;Resistor_SMD:R_0603_1608Metric;oui;Tirage de la sélection SPI
+R14;1;100k;Yageo;RC0603FR-07100KL;Resistor_SMD:R_0603_1608Metric;oui;Horloge SPI au repos à 0
+R15;1;100k 1%;Yageo;RC0603FR-07100KL;Resistor_SMD:R_0603_1608Metric;oui;Résistance 100 kΩ 1 % 0,1 W 0603
+R16;1;10k 1%;Yageo;RC0603FR-0710KL;Resistor_SMD:R_0603_1608Metric;oui;Résistance 10 kΩ 1 % 0,1 W 0603
+R20, R21;2;5.1k;Yageo;RC0603FR-075K1L;Resistor_SMD:R_0603_1608Metric;oui;Résistance 5,1 kΩ 1 % 0,1 W 0603
+R22, R23, R24, R25;4;2.2k;Yageo;RC1206FR-072K2L;Resistor_SMD:R_1206_3216Metric;oui;Résistance 2,2 kΩ 1 % 0,25 W 1206
+R30, R31;2;100R;Yageo;RC0603FR-07100RL;Resistor_SMD:R_0603_1608Metric;oui;Résistance 100 Ω 1 % 0,1 W 0603
+R32, R33;2;100k;Yageo;RC0603FR-07100KL;Resistor_SMD:R_0603_1608Metric;oui;Résistance 100 kΩ 1 % 0,1 W 0603
+R34, R35;2;1k;Yageo;RC0603FR-071KL;Resistor_SMD:R_0603_1608Metric;oui;Résistance 1 kΩ 1 % 0,1 W 0603
+R36;1;10k;Yageo;RC0603FR-0710KL;Resistor_SMD:R_0603_1608Metric;oui;Tirage de grille de Q3
+SW1;1;BOOT;E-Switch;TL3342F450QG;Button_Switch_SMD:SW_SPST_TL3342;oui;Bouton poussoir CMS 450 gf
+SW2;1;RESET;E-Switch;TL3342F450QG;Button_Switch_SMD:SW_SPST_TL3342;oui;Bouton poussoir CMS 450 gf
+SW3;1;APPRENTISSAGE;E-Switch;TL3342F450QG;Button_Switch_SMD:SW_SPST_TL3342;oui;Bouton poussoir CMS 450 gf
+U1;1;ESP32-S3-WROOM-1-N8;Espressif Systems;ESP32-S3-WROOM-1-N8;RF_Module:ESP32-S3-WROOM-1;oui;Module Wi-Fi, 8 Mo de flash, antenne intégrée
+U2, U3;2;DRV8245SQRXZRQ1;Texas Instruments;DRV8245SQRXZRQ1;portail:DRV8245_VQFN-HR-16_RXZ;oui;Pont en H 32 A, variante SPI (S), VQFN-HR 16
+U4;1;TSR 1-2450;Traco Power;TSR 1-2450;Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT;oui;Convertisseur 6,5-36 V vers 5 V / 1 A, SIP-3
+U5;1;AP7361C-33ER;Diodes Incorporated;AP7361C-33ER-13;Package_TO_SOT_SMD:SOT-223-3_TabPin2;oui;LDO 3,3 V / 1 A, SOT-223 brochage R : 1 = GND, 2 = sortie, 3 = entrée
+U6;1;USBLC6-2SC6;STMicroelectronics;USBLC6-2SC6;Package_TO_SOT_SMD:SOT-23-6;oui;Protection ESD des lignes USB
+U7, U8, U9, U10;4;LTV-817S;Lite-On;LTV-817S-TA1;Package_DIP:SMDIP-4_W9.53mm;oui;Optocoupleur CMS 4 broches
+U11;1;TSR 1-24120;Traco Power;TSR 1-24120;Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT;oui;Convertisseur 15-36 V vers 12 V / 1 A, SIP-3
+(F1);1;Fusible lame Mini 15 A;Littelfuse;0297015.WXNV;;à la main;à insérer à la main dans F1
+(F2, F3);2;Fusible lame Mini 10 A;Littelfuse;0297010.WXNV;;à la main;à insérer à la main dans F2 et F3
