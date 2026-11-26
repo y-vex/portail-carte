@@ -15,8 +15,9 @@ Apple HomeKit, une page web de réglage et un journal des événements.
 
 - Carte **v0.4** fabriquée et assemblée, en service sur un portail coulissant depuis novembre 2026.
 - Essayé sur ce portail : mouvements complets, apprentissage des courses, détection d'obstacle par le courant
-  (fermeture), arrêt progressif, HomeKit, page web, journal, mise à jour par le Wi-Fi.
-- Pas encore essayé sur ce portail : entrées photocellule et STOP, sortie feu clignotant, entrée radio,
+  (fermeture), photocellule (réouverture quand le faisceau est coupé à la fermeture), arrêt progressif, HomeKit,
+  page web, journal, mise à jour par le Wi-Fi.
+- Pas encore essayé sur ce portail : entrée STOP, sortie feu clignotant, entrée radio,
   détection d'obstacle à l'ouverture avec un obstacle réel.
 - Un seul portail, un seul modèle de moteur : les réglages par défaut sont des points de départ.
 
