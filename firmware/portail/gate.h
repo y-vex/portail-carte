@@ -86,6 +86,7 @@ class Gate {
   int8_t moveDir = 0, lastDir = 0, nextDir = 0;
   bool moveSlow = false;
   bool halting = false;                // arrêt commandé en cours : décélération avant l'arrêt
+  uint16_t haltMs = 0;                // durée de cette décélération (croisière -> 0)
   int8_t haltNext = 0;                 // ensuite : 0 = rester arrêté, +1 / -1 = repartir dans ce sens
   uint32_t moveStart = 0, idleSince = 0, pauseUntil = 0, backoffUntil = 0, openSince = 0, benchUntil = 0;
   uint8_t learnStep = 0, obstCount = 0;
@@ -194,7 +195,7 @@ class Gate {
       float remaining = l.dir > 0 ? 1 - l.pos : l.pos;
       bool slow = !known || remaining < P.slowZonePct / 100.0f;
       float target = halting ? 0 : slow ? slowDuty : cruise;
-      float step = cruise * TICK_MS / max<float>(halting ? P.stopRampMs : P.rampMs, 50);
+      float step = cruise * TICK_MS / max<float>(halting ? haltMs : P.rampMs, 50);
       l.duty += constrain(target - l.duty, -step, step);
       if (halting && l.duty <= 0) {   // fin de la décélération : ce vantail est arrêté, sa position estimée est gardée
         l.dir = 0; l.duty = 0; ledcWrite(PIN_EN[i], 0);
@@ -252,15 +253,17 @@ class Gate {
   // Arrêt commandé par l'utilisateur (next = 0) ou inversion commandée (next = +1 / -1). En ouverture ou en fermeture,
   // les moteurs décélèrent d'abord sur « arret » ms au lieu d'être freinés d'un coup (choc dans le réducteur, 8 à 9 A
   // lus au portail). Un second ordre d'arrêt pendant la décélération arrête net. Les arrêts de sécurité (obstacle,
-  // photocellule, entrée STOP, défaut) ne passent pas par ici : ils restent immédiats.
-  void halt(int8_t next) {
-    bool rolling = (state == St::OPENING || state == St::CLOSING) && P.stopRampMs > 0 &&
+  // entrée STOP, défaut) ne passent pas par ici : ils restent immédiats. La photocellule, qui se déclenche avant
+  // tout contact, décélère sur FOTO_STOP_MS avant la réouverture.
+  void halt(int8_t next) { halt(next, P.stopRampMs); }
+  void halt(int8_t next, uint16_t ms) {
+    bool rolling = (state == St::OPENING || state == St::CLOSING) && ms > 0 &&
                    ((L[0].dir && L[0].duty > 0) || (L[1].dir && L[1].duty > 0));
     if (!rolling || (halting && !next)) {
       if (next) pauseThen(next); else { stopAll(); setState(St::STOPPED); }
       return;
     }
-    halting = true; haltNext = next;
+    halting = true; haltNext = next; haltMs = ms;
   }
 
   void go(int dir) {
@@ -425,7 +428,11 @@ class Gate {
 
       switch (state) {
         case St::OPENING: case St::CLOSING: {
-          if (state == St::CLOSING && P.fotoOn && inFoto) { Serial.println("photocellule : reouverture"); reversal = false; pauseThen(+1); break; }
+          if (state == St::CLOSING && P.fotoOn && inFoto && !halting) {   // décélération courte, puis réouverture
+            Serial.println("photocellule : reouverture"); reversal = false;
+            halt(+1, FOTO_STOP_MS);
+            if (state != St::CLOSING) break;
+          }
           Res r = tickMove();
           if (r == Res::RUN) break;
           bool wasClosing = state == St::CLOSING;

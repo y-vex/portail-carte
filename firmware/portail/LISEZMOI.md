@@ -91,8 +91,8 @@ courant vu en marche à vitesse normale. Détail et mesures dans `gate.h` (secti
 
 - **Arrêt progressif** : un arrêt ou une inversion commandés (page web, Maison, télécommande, bouton) font d'abord
   décélérer les moteurs sur `arret` ms (300 par défaut, 0 = arrêt net comme avant) au lieu de les freiner d'un coup.
-  Un second ordre d'arrêt pendant la décélération arrête net. Les arrêts de sécurité (obstacle, photocellule,
-  entrée STOP, défaut) restent immédiats.
+  Un second ordre d'arrêt pendant la décélération arrête net. Les arrêts de sécurité (obstacle, entrée STOP,
+  défaut) restent immédiats. La photocellule coupée pendant une fermeture fait décélérer sur 150 ms, puis rouvrir.
 - **Seuil réduit en approche lente** : `seuilL1`, `seuilL2` (A, 0 = inactif, valeur par défaut). Quand la position est
   connue et que le vantail roule à la vitesse lente établie depuis 200 ms, c'est ce seuil qui décide du blocage : le
   moteur appuie moins fort sur la butée. Il n'est jamais appliqué pendant l'apprentissage.

@@ -37,6 +37,7 @@ constexpr uint32_t STALL_BLANK_MS  = 300;     // courant de démarrage ignoré
 constexpr uint32_t STALL_HOLD_MS   = 120;     // durée au-dessus du seuil pour conclure au blocage
 constexpr uint32_t APPROACH_HOLD_MS = 40;     // idem en approche lente établie : pas de pointe de démarrage à ignorer,
                                               // et le courant en butée montait à 5-7 A pendant les 120 ms (22 nov. 2026)
+constexpr uint16_t FOTO_STOP_MS    = 150;     // photocellule coupée à la fermeture : décélération avant réouverture
 constexpr float    END_TOLERANCE   = 0.20f;   // blocage dans les derniers 20 % de la course = butée
 constexpr float    OVERRUN         = 0.35f;   // course dépassée de 35 % sans butée = défaut (moteur débrayé ?)
 constexpr uint32_t REVERSE_PAUSE_MS = 400;    // pause avant inversion
