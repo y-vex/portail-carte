@@ -4,6 +4,9 @@ Carte électronique et firmware pour piloter un portail motorisé à **deux vant
 continu**, sans capteur de fin de course. Elle remplace une carte de commande du commerce tombée en panne et ajoute
 Apple HomeKit, une page web de réglage et un journal des événements.
 
+Elle a été conçue pour un portail coulissant Portaleco à deux vantaux, équipé de deux moteurs Nidec 404.854
+(24 V DC), où elle remplace une carte Prastel UNIK2E.
+
 ![Carte v0.4, face supérieure](carte-face-superieure.png)
 
 > **Avertissement.** Un portail motorisé peut blesser gravement. Ce projet est un travail personnel, publié tel quel,
@@ -13,7 +16,7 @@ Apple HomeKit, une page web de réglage et un journal des événements.
 
 ## État du projet
 
-- Carte **v0.4** fabriquée et assemblée, en service sur un portail coulissant depuis novembre 2026.
+- Carte **v0.4** fabriquée et assemblée, en service sur un portail coulissant Portaleco depuis novembre 2026.
 - Essayé sur ce portail : mouvements complets, apprentissage des courses, détection d'obstacle par le courant
   (fermeture), photocellule (réouverture quand le faisceau est coupé à la fermeture), feu clignotant, arrêt
   progressif, HomeKit, page web, journal, mise à jour par le Wi-Fi.
@@ -86,3 +89,6 @@ python3 gen/pcb_all.py      # placement, routage, contrôle des règles (plusieu
 - **Logiciel** (firmware et scripts de `gen/`) : [GPL version 3 ou ultérieure](LICENSES/GPL-3.0-or-later.txt).
 
 Détail et éléments tiers dans [`LICENSE.md`](LICENSE.md).
+
+Ce projet est indépendant : il n'est ni affilié à Portaleco, Prastel, Nidec ou Apple, ni approuvé par eux. Les marques
+citées appartiennent à leurs propriétaires et ne sont mentionnées que pour décrire le matériel utilisé.
