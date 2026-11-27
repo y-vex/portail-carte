@@ -4,7 +4,7 @@ Carte électronique et firmware pour piloter un portail motorisé à **deux vant
 continu**, sans capteur de fin de course. Elle remplace une carte de commande du commerce tombée en panne et ajoute
 Apple HomeKit, une page web de réglage et un journal des événements.
 
-Elle a été conçue pour un portail coulissant Portaleco à deux vantaux, équipé de deux moteurs Nidec 404.854
+Elle a été conçue pour un portail coulissant Portaleco CT08APO-02 à deux vantaux, équipé de deux moteurs Nidec 404.854
 (24 V DC), où elle remplace une carte Prastel UNIK2E.
 
 ![Carte v0.4, face supérieure](carte-face-superieure.png)
