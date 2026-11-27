@@ -22,6 +22,9 @@ Elle a été conçue pour un portail coulissant autoportant Portaleco CT08APO-02
   progressif, HomeKit, page web, journal, mise à jour par le Wi-Fi.
 - Pas encore essayé sur ce portail : entrée STOP, entrée radio,
   détection d'obstacle à l'ouverture avec un obstacle réel.
+- Limite connue : par temps froid (quelques degrés), le courant des moteurs monte et s'approche des seuils appris
+  par temps doux ; une fausse détection d'obstacle s'est produite une fois à l'ouverture. Les seuils sont à revoir
+  selon la saison.
 - Un seul portail, un seul modèle de moteur : les réglages par défaut sont des points de départ.
 
 ## La carte
@@ -35,9 +38,16 @@ Elle a été conçue pour un portail coulissant autoportant Portaleco CT08APO-02
 | Sorties (J5) | feu clignotant et sortie auxiliaire, 12 V, commutées côté masse |
 | Dimensions | 150 × 100 mm, deux couches |
 
-- Schéma : [`schema.pdf`](schema.pdf), version commentée dans `schema-lisible.html`.
+- Schéma : [`schema.pdf`](schema.pdf). `schema-lisible.html` en donne une version simplifiée, par fonction
+  (alimentation, commande d'un moteur, une entrée, une sortie), pour qui ne lit pas un schéma électronique.
 - Projet KiCad : `kicad/`. Fichiers de fabrication : `fabrication/` et `portail-gerber.zip`.
 - Nomenclature : `nomenclature.csv` ; variantes pour l'assemblage dans `fabrication/`.
+
+**Câblage des entrées : attention au sens.** Chaque contact se branche entre `+12V_ACC` et son entrée (`PP`, `FOTO`,
+`RADIO`, `STOP`). Beaucoup de cartes du commerce font l'inverse, avec des contacts qui se ferment vers un commun relié
+à la masse. Un accessoire câblé pour une telle carte, par exemple un récepteur de photocellule dont le commun du
+contact est ponté sur le moins de son alimentation, doit être recâblé : commun du contact sur le +12 V.
+Les charges des sorties se branchent entre `+12V_OUT` et `LAMP_N` ou `AUX_N` (environ 1 A au total).
 
 Le schéma et le circuit imprimé ne sont pas dessinés à la main : ils sont **générés par les scripts Python** de `gen/`
 (`build.py` décrit le circuit, `pcb_all.py` place, route avec Freerouting et lance le contrôle des règles).
